@@ -1,0 +1,7 @@
+<ResourceDictionary xmlns="https://github.com/avaloniaui"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    <SolidColorBrush x:Key="SysCloseButtonBackgroundHover" Color="#e66d64"/>
+    <SolidColorBrush x:Key="SysButtonBackgroundPressed" Color="#e5e5e5"/>
+    <SolidColorBrush x:Key="SysCloseButtonBackgroundPressed" Color="#e66d65"/>
+    <SolidColorBrush x:Key="SysButtonBackgroundHover" Color="#282828"/>
+</ResourceDictionary>
