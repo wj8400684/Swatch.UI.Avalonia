@@ -11,6 +11,7 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Files", "Solution Files", "{C42B802B-35F8-41A4-B6AE-7283CEFB5D87}"
 	ProjectSection(SolutionItems) = preProject
 		src\Package.props = src\Package.props
+		demo\Directory.Build.props = demo\Directory.Build.props
 	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SwatchAvalonia.AliBaba.Fonts", "src\SwatchAvalonia.AliBaba.Fonts\SwatchAvalonia.AliBaba.Fonts.csproj", "{678319BC-FBDC-4252-BA9C-E3C3684526C5}"
