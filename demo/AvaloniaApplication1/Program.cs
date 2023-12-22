@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Runtime.InteropServices;
 using Avalonia;
 using SwatchAvalonia.HarmonyOS.Fonts;
 
@@ -15,11 +16,20 @@ class Program
 
     // Avalonia configuration, don't remove; also used by visual designer.
     public static AppBuilder BuildAvaloniaApp()
-        => AppBuilder.Configure<App>()
-            .UseAvaloniaNative()
+    {
+        var app = AppBuilder.Configure<App>()
             .UseSkia() // skia
-            //.UseWin32() window
-            //.UseX11() //linux
             .UseFontHarmonyOS()
             .LogToTrace();
+
+#if Linux
+            app.UseX11();
+#elif OSX
+            app.UseAvaloniaNative();
+#elif Windows
+            app.UseWin32();
+#endif
+
+        return app;
+    }
 }
