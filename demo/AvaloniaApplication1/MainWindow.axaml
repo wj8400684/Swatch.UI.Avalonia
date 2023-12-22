@@ -3,25 +3,22 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="using:AvaloniaApplication1"
+        Background="Transparent"
         mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
         x:Class="AvaloniaApplication1.MainWindow"
         Title="AvaloniaApplication1">
 
-    <DockPanel>
+    <Grid>
         <ExperimentalAcrylicBorder IsHitTestVisible="False">
             <ExperimentalAcrylicBorder.Material>
                 <ExperimentalAcrylicMaterial
                     BackgroundSource="Digger"
-                    TintColor="White"
+                    TintColor="{DynamicResource WindowBackground}"
                     TintOpacity="1"
-                    MaterialOpacity="0.15" />
+                    MaterialOpacity="0.65" />
             </ExperimentalAcrylicBorder.Material>
         </ExperimentalAcrylicBorder>
-		<Border PointerPressed="OnPointerPressed"
-				Height="40"
-				Background="{DynamicResource SystemRegionBrush}"
-				HorizontalAlignment="Stretch"
-			DockPanel.Dock="Top"/>
-        <local:MainView/>
-    </DockPanel>
+		
+        <local:MainView Margin="0,30,0,0"/>
+    </Grid>
 </Window>
