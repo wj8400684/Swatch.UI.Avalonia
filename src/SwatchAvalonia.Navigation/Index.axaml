@@ -1,0 +1,31 @@
+<Styles xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    <Design.PreviewWith>
+        <Border Padding="20">
+            <!-- Add Controls for Previewer Here -->
+        </Border>
+    </Design.PreviewWith>
+
+    <!-- Add Styles Here -->
+    <Styles.Resources>
+        <ResourceDictionary>
+            <FontFamily x:Key="SymbolThemeFontFamily">/Assets/Fonts/#Symbols</FontFamily>
+            <ResourceDictionary.ThemeDictionaries>
+                <MergeResourceInclude x:Key="Light" Source="Themes/Colors/NavigationViewLight.axaml" />
+                <MergeResourceInclude x:Key="Dark" Source="Themes/Colors/NavigationViewDark.axaml" />
+            </ResourceDictionary.ThemeDictionaries>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceInclude Source="Themes/Colors/Shared.axaml"/>
+                <ResourceInclude Source="Themes/NavigationView/NavigationViewBackButtonStyles.axaml"/>
+                <ResourceInclude Source="Themes/NavigationView/NavigationViewStyles.axaml"/>
+                <ResourceInclude Source="Themes/NavigationView/NavigationViewItemHeaderStyles.axaml"/>
+                <ResourceInclude Source="Themes/NavigationView/NavigationViewItemPresenterStyles.axaml"/>
+                <ResourceInclude Source="Themes/NavigationView/NavigationViewItemSeparatorStyles.axaml"/>
+                <ResourceInclude Source="Themes/NavigationView/NavigationViewItemStyles.axaml"/>
+                <ResourceInclude Source="Themes/NavigationView/NavigationViewSharedStyles.axaml"/>
+                <ResourceInclude Source="Themes/NavigationView/NavigationViewStyles.axaml"/>
+                <ResourceInclude Source="Themes/InfoBadgeStyles.axaml"/>
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </Styles.Resources>
+</Styles>

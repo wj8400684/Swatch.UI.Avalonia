@@ -19,6 +19,6 @@
 
     <Application.Styles>
         <FluentTheme />
-        <StyleInclude Source="avares://SwatchAvalonia.Navigation/Themes/Index.axaml" />
+        <StyleInclude Source="avares://SwatchAvalonia.Navigation/Index.axaml" />
     </Application.Styles>
 </Application>
