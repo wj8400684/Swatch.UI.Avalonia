@@ -17,6 +17,6 @@
                     MaterialOpacity="0.75" />
             </ExperimentalAcrylicBorder.Material>
         </ExperimentalAcrylicBorder>
-        <local:MainView />
+        <local:MainView  Margin="0,20,0,0"/>
     </Panel>
 </Window>
