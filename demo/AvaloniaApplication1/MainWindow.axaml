@@ -7,16 +7,21 @@
         x:Class="AvaloniaApplication1.MainWindow"
         Title="AvaloniaApplication1">
 
-    <Panel PointerPressed="OnPointerPressed">
+    <DockPanel>
         <ExperimentalAcrylicBorder IsHitTestVisible="False">
             <ExperimentalAcrylicBorder.Material>
                 <ExperimentalAcrylicMaterial
                     BackgroundSource="Digger"
-                    TintColor="{DynamicResource SystemRegionBrush}"
+                    TintColor="White"
                     TintOpacity="1"
-                    MaterialOpacity="0.75" />
+                    MaterialOpacity="0.15" />
             </ExperimentalAcrylicBorder.Material>
         </ExperimentalAcrylicBorder>
-        <local:MainView  Margin="0,20,0,0"/>
-    </Panel>
+		<Border PointerPressed="OnPointerPressed"
+				Height="40"
+				Background="{DynamicResource SystemRegionBrush}"
+				HorizontalAlignment="Stretch"
+			DockPanel.Dock="Top"/>
+        <local:MainView/>
+    </DockPanel>
 </Window>
