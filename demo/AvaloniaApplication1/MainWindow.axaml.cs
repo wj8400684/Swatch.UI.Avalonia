@@ -11,7 +11,7 @@ public partial class MainWindow : AppWindow
         InitializeComponent();
     }
 
-    private void Grid_PointerPressed(object sender,PointerPressedEventArgs args)
+    private void OnPointerPressed(object sender,PointerPressedEventArgs args)
     {
         this.BeginMoveDrag(args);
     }

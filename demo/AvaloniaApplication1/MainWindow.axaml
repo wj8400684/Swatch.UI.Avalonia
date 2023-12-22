@@ -2,23 +2,21 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="using:AvaloniaApplication1"
         mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
-        xmlns:ui="using:FluentAvalonia.UI.Controls"
-        xmlns:uip="using:FluentAvalonia.UI.Controls.Primitives"
         x:Class="AvaloniaApplication1.MainWindow"
         Title="AvaloniaApplication1">
 
-	<Grid RowDefinitions="40,*">
-		<Border PointerPressed="Grid_PointerPressed" Background="{DynamicResource SystemRegionBrush}"/>
-		<ui:NavigationView AlwaysShowHeader="False"
-				   PaneDisplayMode="Left" 
-						   Grid.Row="1">
-			<ui:NavigationView.MenuItems>
-				<ui:NavigationViewItem Margin="0,20,0,0" Content="Menu Item1" Tag="SamplePage1" IconSource="Play" />
-				<ui:NavigationViewItem Content="Menu Item2" Tag="SamplePage2" IconSource="Save" />
-				<ui:NavigationViewItem Content="Menu Item3" Tag="SamplePage3" IconSource="Refresh" />
-				<ui:NavigationViewItem Content="Menu Item4" Tag="SamplePage4" IconSource="Download" />
-			</ui:NavigationView.MenuItems>
-		</ui:NavigationView>
-	</Grid>
+    <Panel PointerPressed="OnPointerPressed">
+        <ExperimentalAcrylicBorder IsHitTestVisible="False">
+            <ExperimentalAcrylicBorder.Material>
+                <ExperimentalAcrylicMaterial
+                    BackgroundSource="Digger"
+                    TintColor="{DynamicResource SystemRegionBrush}"
+                    TintOpacity="1"
+                    MaterialOpacity="0.75" />
+            </ExperimentalAcrylicBorder.Material>
+        </ExperimentalAcrylicBorder>
+        <local:MainView />
+    </Panel>
 </Window>

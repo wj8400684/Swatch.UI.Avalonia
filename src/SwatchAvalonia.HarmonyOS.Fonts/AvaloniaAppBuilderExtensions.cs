@@ -11,6 +11,6 @@ public static class AvaloniaAppBuilderExtensions
         return builder.ConfigureFonts(fontManager =>
         {
             fontManager.AddFontCollection(new HarmonyOSFontCollection());
-        });
+        });  
     }
 }
