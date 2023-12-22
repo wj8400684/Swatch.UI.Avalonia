@@ -16,7 +16,10 @@ class Program
     // Avalonia configuration, don't remove; also used by visual designer.
     public static AppBuilder BuildAvaloniaApp()
         => AppBuilder.Configure<App>()
-            .UsePlatformDetect()
+            .UseAvaloniaNative()
+            .UseSkia() // skia
+            //.UseWin32() window
+            //.UseX11() //linux
             .UseFontHarmonyOS()
             .LogToTrace();
 }
