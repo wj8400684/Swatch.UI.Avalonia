@@ -28,7 +28,6 @@
 
 
     <ItemGroup>
-      <ProjectReference Include="..\..\src\SwatchAvalonia.AppWindow\SwatchAvalonia.AppWindow.csproj" />
       <ProjectReference Include="..\..\src\SwatchAvalonia.Navigation\SwatchAvalonia.Navigation.csproj" />
     </ItemGroup>
 
