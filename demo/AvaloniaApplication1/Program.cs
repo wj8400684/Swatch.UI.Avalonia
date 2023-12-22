@@ -25,7 +25,7 @@ class Program
 #if Linux
             app.UseX11();
 #elif OSX
-            app.UseAvaloniaNative();
+        app.UseAvaloniaNative();
 #elif Windows
             app.UseWin32();
 #endif
