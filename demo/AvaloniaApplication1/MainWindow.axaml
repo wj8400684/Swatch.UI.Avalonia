@@ -5,9 +5,16 @@
         xmlns:local="using:AvaloniaApplication1"
         mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
         x:Class="AvaloniaApplication1.MainWindow"
-        Title="AvaloniaApplication1"
-		ExtendClientAreaToDecorationsHint="True">
+        Title="AvaloniaApplication1">
 
+    <Window.Styles>
+        <Style Selector="Window">
+            <Setter Property="ExtendClientAreaToDecorationsHint" Value="True" />
+            <Setter Property="TransparencyLevelHint" Value="AcrylicBlur" />
+            <Setter Property="Background" Value="Transparent" />
+        </Style>
+    </Window.Styles>
+    
     <Grid>
         <ExperimentalAcrylicBorder IsHitTestVisible="False">
             <ExperimentalAcrylicBorder.Material>
