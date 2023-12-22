@@ -4,9 +4,8 @@ using Avalonia.Controls;
 using Avalonia.Controls.Primitives;
 using Avalonia.Input;
 using Avalonia.Interactivity;
-using SwatchAvalonia.AppWindow.Internals;
 
-namespace SwatchAvalonia.AppWindow.Controls;
+namespace SwatchAvalonia.AppWindow1.Controls;
 
 
 internal sealed class MinMaxCloseControl : TemplatedControl

@@ -1,16 +1,16 @@
+﻿using Avalonia.Controls;
+using Avalonia.Input;
 using System;
 using System.Runtime.InteropServices;
-using Avalonia.Controls;
-using Avalonia.Input;
 
-namespace SwatchAvalonia.AppWindow.Controls;
+namespace SwatchAvalonia.AppWindow1.Controls;
 
 public class AppWindow : Window
 {
-    protected override Type StyleKeyOverride { get; } = typeof(AppWindow);
+    protected override Type StyleKeyOverride => typeof(AppWindow);
 
-    public AppWindow()
-    { 
+    public AppWindow() : base()
+    {
         if (RuntimeInformation.IsOSPlatform(OSPlatform.Windows))
             PseudoClasses.Add(":windows");
         else if (RuntimeInformation.IsOSPlatform(OSPlatform.OSX))
@@ -21,5 +21,10 @@ public class AppWindow : Window
         {
             //其他平台自行判断
         }
+    }
+
+    protected override void OnPointerPressed(PointerPressedEventArgs e)
+    {
+        base.OnPointerPressed(e);
     }
 }

@@ -1,24 +1,27 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34322.80
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{2F345D13-D0D4-4CAB-B96E-94A5A0697CAC}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "demo", "demo", "{3D3B320E-FB01-499A-BC67-C9E138865466}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SwatchAvalonia.Navigation", "src\SwatchAvalonia.Navigation\SwatchAvalonia.Navigation.csproj", "{A61DD6CA-7566-404E-BAD3-62EBD7469F59}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SwatchAvalonia.Navigation", "src\SwatchAvalonia.Navigation\SwatchAvalonia.Navigation.csproj", "{A61DD6CA-7566-404E-BAD3-62EBD7469F59}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AvaloniaApplication1", "demo\AvaloniaApplication1\AvaloniaApplication1.csproj", "{CF422CDD-54D1-4AE5-AC41-A161EDBD771E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AvaloniaApplication1", "demo\AvaloniaApplication1\AvaloniaApplication1.csproj", "{CF422CDD-54D1-4AE5-AC41-A161EDBD771E}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Files", "Solution Files", "{C42B802B-35F8-41A4-B6AE-7283CEFB5D87}"
 	ProjectSection(SolutionItems) = preProject
-		src\Package.props = src\Package.props
 		demo\Directory.Build.props = demo\Directory.Build.props
+		src\Package.props = src\Package.props
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SwatchAvalonia.AliBaba.Fonts", "src\SwatchAvalonia.AliBaba.Fonts\SwatchAvalonia.AliBaba.Fonts.csproj", "{678319BC-FBDC-4252-BA9C-E3C3684526C5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SwatchAvalonia.AliBaba.Fonts", "src\SwatchAvalonia.AliBaba.Fonts\SwatchAvalonia.AliBaba.Fonts.csproj", "{678319BC-FBDC-4252-BA9C-E3C3684526C5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SwatchAvalonia.HarmonyOS.Fonts", "src\SwatchAvalonia.HarmonyOS.Fonts\SwatchAvalonia.HarmonyOS.Fonts.csproj", "{FA2DFD6E-70EF-42D8-ACEB-27C43EC004AA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SwatchAvalonia.HarmonyOS.Fonts", "src\SwatchAvalonia.HarmonyOS.Fonts\SwatchAvalonia.HarmonyOS.Fonts.csproj", "{FA2DFD6E-70EF-42D8-ACEB-27C43EC004AA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SwatchAvalonia.AppWindow", "src\SwatchAvalonia.AppWindow\SwatchAvalonia.AppWindow.csproj", "{225E4AF6-98DE-43F7-93AA-AEB314835A01}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SwatchAvalonia.AppWindow", "src\SwatchAvalonia.AppWindow\SwatchAvalonia.AppWindow.csproj", "{225E4AF6-98DE-43F7-93AA-AEB314835A01}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -46,6 +49,9 @@ Global
 		{225E4AF6-98DE-43F7-93AA-AEB314835A01}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{225E4AF6-98DE-43F7-93AA-AEB314835A01}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{225E4AF6-98DE-43F7-93AA-AEB314835A01}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{A61DD6CA-7566-404E-BAD3-62EBD7469F59} = {2F345D13-D0D4-4CAB-B96E-94A5A0697CAC}
