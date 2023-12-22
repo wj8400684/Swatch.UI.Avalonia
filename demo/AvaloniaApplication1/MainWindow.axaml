@@ -22,7 +22,7 @@
                     BackgroundSource="Digger"
                     TintColor="{DynamicResource WindowBackground}"
                     TintOpacity="1"
-                    MaterialOpacity="0.65" />
+                    MaterialOpacity="0.35" />
             </ExperimentalAcrylicBorder.Material>
         </ExperimentalAcrylicBorder>
 		
