@@ -8,9 +8,11 @@
         x:Class="AvaloniaApplication1.MainWindow"
         Title="AvaloniaApplication1">
 
-	<Grid PointerPressed="Grid_PointerPressed">
+	<Grid RowDefinitions="40,*">
+		<Border PointerPressed="Grid_PointerPressed" Background="{DynamicResource SystemRegionBrush}"/>
 		<ui:NavigationView AlwaysShowHeader="False"
-				   PaneDisplayMode="Left" >
+				   PaneDisplayMode="Left" 
+						   Grid.Row="1">
 			<ui:NavigationView.MenuItems>
 				<ui:NavigationViewItem Margin="0,20,0,0" Content="Menu Item1" Tag="SamplePage1" IconSource="Play" />
 				<ui:NavigationViewItem Content="Menu Item2" Tag="SamplePage2" IconSource="Save" />
