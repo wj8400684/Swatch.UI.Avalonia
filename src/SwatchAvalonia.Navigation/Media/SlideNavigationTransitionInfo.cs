@@ -6,7 +6,7 @@ using Avalonia.Animation.Easings;
 using Avalonia.Media;
 using Avalonia.Styling;
 
-namespace FluentAvalonia.UI.Media.Animation;
+namespace SwatchAvalonia.Navigation.Media.Animation;
 
 /// <summary>
 /// Provides the parameters for a slide navigation transition.

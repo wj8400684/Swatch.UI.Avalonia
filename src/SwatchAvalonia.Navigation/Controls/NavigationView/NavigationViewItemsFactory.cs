@@ -5,7 +5,7 @@ using Avalonia.Controls.Shapes;
 using Avalonia.Controls.Templates;
 using Avalonia.Logging;
 
-namespace FluentAvalonia.UI.Controls;
+namespace SwatchAvalonia.Navigation.Controls;
 
 /// <summary>
 /// Element factory for the ItemsRepeaters in a NavigationView

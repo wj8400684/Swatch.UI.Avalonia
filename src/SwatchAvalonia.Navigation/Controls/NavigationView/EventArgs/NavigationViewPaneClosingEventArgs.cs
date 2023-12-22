@@ -2,7 +2,7 @@
 using Avalonia.Controls;
 using Avalonia.Interactivity;
 
-namespace FluentAvalonia.UI.Controls;
+namespace SwatchAvalonia.Navigation.Controls;
 
 /// <summary>
 /// Provides data for the NavigationView.PaneClosing event.

@@ -1,6 +1,6 @@
 ﻿using Avalonia;
 
-namespace FluentAvalonia.UI.Controls;
+namespace SwatchAvalonia.Navigation.Controls;
 
 /// <summary>
 /// Provides calculated values that can be referenced as TemplatedParent 

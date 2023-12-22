@@ -3,7 +3,7 @@ using Avalonia.Controls;
 using Avalonia.Controls.Documents;
 using Avalonia.Layout;
 
-namespace FluentAvalonia.UI.Controls;
+namespace SwatchAvalonia.Navigation.Controls;
 
 /// <summary>
 /// Represents an icon that uses an IconSource as its content.

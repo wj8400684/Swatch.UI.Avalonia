@@ -5,11 +5,11 @@ using Avalonia.Controls.Metadata;
 using Avalonia.Controls.Primitives;
 using Avalonia.Controls.Shapes;
 using Avalonia.Controls.Templates;
-using FluentAvalonia.Core;
+using SwatchAvalonia.Navigation.Core;
 using System.Collections;
 using System.Collections.Generic;
 
-namespace FluentAvalonia.UI.Controls;
+namespace SwatchAvalonia.Navigation.Controls;
 
 [PseudoClasses(s_pcSeparator)]
 [PseudoClasses(s_pcListSizeCompact, s_pcClosedCompact)]

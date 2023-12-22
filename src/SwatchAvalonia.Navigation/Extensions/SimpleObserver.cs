@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Diagnostics.CodeAnalysis;
 
-namespace FluentAvalonia.Core;
+namespace SwatchAvalonia.Navigation.Core;
 
 internal class SimpleObserver<T> : IObserver<T>
 {

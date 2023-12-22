@@ -1,7 +1,7 @@
 ﻿using System;
-using FluentAvalonia.UI.Media.Animation;
+using SwatchAvalonia.Navigation.Media.Animation;
 
-namespace FluentAvalonia.UI.Controls;
+namespace SwatchAvalonia.Navigation.Controls;
 
 /// <summary>
 /// Provides data for the NavigationView.SelectionChanged event.

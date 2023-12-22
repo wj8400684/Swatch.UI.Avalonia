@@ -1,14 +1,14 @@
 ﻿using Avalonia.Controls;
 using Avalonia;
-using FluentAvalonia.UI.Controls.Primitives;
+using SwatchAvalonia.Navigation.Controls.Primitives;
 using System.Collections;
 using System.Collections.Generic;
-using FluentAvalonia.Core;
+using SwatchAvalonia.Navigation.Core;
 using Avalonia.Controls.Metadata;
 
 
 
-namespace FluentAvalonia.UI.Controls;
+namespace SwatchAvalonia.Navigation.Controls;
 
 [PseudoClasses(SharedPseudoclasses.s_pcLeftNav, SharedPseudoclasses.s_pcTopNav, SharedPseudoclasses.s_pcTopOverflow)]
 [PseudoClasses(SharedPseudoclasses.s_pcIconLeft, SharedPseudoclasses.s_pcIconOnly, SharedPseudoclasses.s_pcContentOnly)]

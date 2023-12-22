@@ -3,9 +3,9 @@ using Avalonia.Controls;
 using Avalonia.Controls.Presenters;
 using Avalonia.Controls.Primitives;
 using Avalonia.Input;
-using FluentAvalonia.Core;
+using SwatchAvalonia.Navigation.Core;
 
-namespace FluentAvalonia.UI.Controls.Primitives;
+namespace SwatchAvalonia.Navigation.Controls.Primitives;
 
 /// <summary>
 /// Represents the visual elements of a NavigationViewItem.

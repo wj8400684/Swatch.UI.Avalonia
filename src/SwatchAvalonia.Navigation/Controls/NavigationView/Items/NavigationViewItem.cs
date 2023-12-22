@@ -6,12 +6,12 @@ using Avalonia.Interactivity;
 using Avalonia.Layout;
 using Avalonia.Threading;
 using Avalonia.VisualTree;
-using FluentAvalonia.Core;
-using FluentAvalonia.UI.Controls.Primitives;
+using SwatchAvalonia.Navigation.Core;
+using SwatchAvalonia.Navigation.Controls.Primitives;
 using System.Collections.Specialized;
 using System.ComponentModel;
 
-namespace FluentAvalonia.UI.Controls;
+namespace SwatchAvalonia.Navigation.Controls;
 
 /// <summary>
 /// Represents the container for an item in a NavigationView control.

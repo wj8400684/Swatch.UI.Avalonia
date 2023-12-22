@@ -2,7 +2,7 @@
 using Avalonia.Controls.Documents;
 using Avalonia.Media;
 
-namespace FluentAvalonia.UI.Controls;
+namespace SwatchAvalonia.Navigation.Controls;
 
 public partial class FontIcon : FAIconElement
 {

@@ -1,7 +1,7 @@
 ﻿using Avalonia;
 using Avalonia.Controls.Documents;
 
-namespace FluentAvalonia.UI.Controls;
+namespace SwatchAvalonia.Navigation.Controls;
 
 /// <summary>
 /// Represents an icon source that uses a glyph from the SymbolThemeFontFamily resource as its content.
@@ -21,7 +21,7 @@ public class SymbolIconSource : IconSource
        TextElement.FontSizeProperty.AddOwner<SymbolIconSource>();
 
     /// <summary>
-    /// Gets or sets the <see cref="FluentAvalonia.UI.Controls.Symbol"/> this icon displays
+    /// Gets or sets the <see cref="SwatchAvalonia.Navigation.Controls.Symbol"/> this icon displays
     /// </summary>
     public Symbol Symbol
     {

@@ -1,7 +1,7 @@
 using System.Collections;
 using System.Linq;
 
-namespace FluentAvalonia.Core;
+namespace SwatchAvalonia.Navigation.Core;
 
 /// <summary>
 /// <see cref="IEnumerable"/> extensions methods

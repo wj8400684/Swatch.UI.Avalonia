@@ -1,4 +1,4 @@
-﻿namespace FluentAvalonia.UI.Controls;
+﻿namespace SwatchAvalonia.Navigation.Controls;
 
 // Ignore NavigationViewShoulderNavigationEnabled - xbox only
 // Removed NavigationViewOverflowLabelMode - deprecated

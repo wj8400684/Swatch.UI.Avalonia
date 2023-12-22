@@ -1,7 +1,7 @@
 ﻿using System;
 using Avalonia;
 
-namespace FluentAvalonia.UI.Controls;
+namespace SwatchAvalonia.Navigation.Controls;
 
 public partial class BitmapIcon : FAIconElement
 {

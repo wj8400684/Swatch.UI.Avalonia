@@ -5,7 +5,7 @@ using System.Globalization;
 using System.Text.Json;
 using Avalonia.Platform;
 
-namespace FluentAvalonia.UI;
+namespace SwatchAvalonia.Navigation;
 
 /// <summary>
 /// Helper class for storing localized string for FluentAvalonia/WinUI controls

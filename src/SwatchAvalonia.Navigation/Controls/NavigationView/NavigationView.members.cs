@@ -4,14 +4,14 @@ using Avalonia.Controls;
 using Avalonia.Controls.Primitives;
 using Avalonia.Layout;
 using Avalonia.VisualTree;
-using FluentAvalonia.UI.Media.Animation;
+using SwatchAvalonia.Navigation.Media.Animation;
 using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using Avalonia.Collections;
-using FluentAvalonia.Core;
+using SwatchAvalonia.Navigation.Core;
 
-namespace FluentAvalonia.UI.Controls;
+namespace SwatchAvalonia.Navigation.Controls;
 
 public partial class NavigationView : HeaderedContentControl
 {

@@ -1,4 +1,4 @@
-﻿namespace FluentAvalonia.UI.Controls;
+﻿namespace SwatchAvalonia.Navigation.Controls;
 
 /// <summary>
 /// Defines constants that specify how the pane is shown in a NavigationView.

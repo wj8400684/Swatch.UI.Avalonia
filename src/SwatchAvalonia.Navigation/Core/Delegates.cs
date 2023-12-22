@@ -1,6 +1,6 @@
 ﻿using Avalonia.Controls;
 
-namespace FluentAvalonia.Core;
+namespace SwatchAvalonia.Navigation.Core;
 
 /// <summary>
 /// EventHandler delegate with a explicit Type

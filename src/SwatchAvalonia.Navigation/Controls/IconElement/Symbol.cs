@@ -3,7 +3,7 @@
 
 using System;
 
-namespace FluentAvalonia.UI.Controls;
+namespace SwatchAvalonia.Navigation.Controls;
 
 /// <summary>
 /// A set of predefined symbols derived from the FluentUI Icons font. This enum is compatible with WinUI/SegoeFluent

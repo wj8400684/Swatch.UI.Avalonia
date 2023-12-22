@@ -1,6 +1,6 @@
 using Avalonia;
 
-namespace FluentAvalonia.Core;
+namespace SwatchAvalonia.Navigation.Core;
 
 /// <summary>
 /// 

@@ -3,7 +3,7 @@ using Avalonia;
 using Avalonia.Platform;
 using SkiaSharp;
 
-namespace FluentAvalonia.UI.Controls;
+namespace SwatchAvalonia.Navigation.Controls;
 
 /// <summary>
 /// Represents an icon source that uses a bitmap as its content.

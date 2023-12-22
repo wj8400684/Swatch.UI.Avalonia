@@ -8,7 +8,7 @@ using Avalonia.Controls.Shapes;
 using Avalonia.Input;
 using Avalonia.Interactivity;
 using Avalonia.Layout;
-using FluentAvalonia.Core;
+using SwatchAvalonia.Navigation.Core;
 using System.Collections;
 using System.Collections.Generic;
 using System.Collections.Specialized;
@@ -17,7 +17,7 @@ using System.Diagnostics;
 using System.Linq;
 using Avalonia.Controls.Selection;
 
-namespace FluentAvalonia.UI.Controls;
+namespace SwatchAvalonia.Navigation.Controls;
 
 /// <summary>
 /// Represents a container that enables navigation of app content. It has a header, 

@@ -2,9 +2,9 @@
 using Avalonia.Controls;
 using Avalonia.Controls.Metadata;
 using Avalonia.VisualTree;
-using FluentAvalonia.Core;
+using SwatchAvalonia.Navigation.Core;
 
-namespace FluentAvalonia.UI.Controls.Primitives;
+namespace SwatchAvalonia.Navigation.Controls.Primitives;
 
 [PseudoClasses(s_pcExpanded)]
 [PseudoClasses(s_pcClosedCompactTop, s_pcNotClosedCompactTop)]

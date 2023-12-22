@@ -2,7 +2,7 @@
 using System.Collections;
 using System.Collections.Generic;
 
-namespace FluentAvalonia.Core;
+namespace SwatchAvalonia.Navigation.Core;
 
 internal class FADisposable : IDisposable
 {

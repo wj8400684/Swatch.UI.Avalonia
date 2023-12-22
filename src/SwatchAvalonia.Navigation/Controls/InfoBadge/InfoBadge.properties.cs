@@ -1,9 +1,9 @@
 ﻿using Avalonia;
 using Avalonia.Controls.Metadata;
 using Avalonia.Controls.Primitives;
-using FluentAvalonia.Core;
+using SwatchAvalonia.Navigation.Core;
 
-namespace FluentAvalonia.UI.Controls;
+namespace SwatchAvalonia.Navigation.Controls;
 
 /// <summary>
 /// Represents a control for indicating notifications, alerts, new content, 

@@ -1,4 +1,4 @@
-﻿namespace FluentAvalonia.UI.Controls;
+﻿namespace SwatchAvalonia.Navigation.Controls;
 
 //Replaced with bool
 //public enum NavigationViewBackButtonVisible

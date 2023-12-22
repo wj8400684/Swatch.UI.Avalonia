@@ -4,7 +4,7 @@ using Avalonia.Media;
 using Avalonia.Utilities;
 using Avalonia;
 
-namespace FluentAvalonia.UI.Controls;
+namespace SwatchAvalonia.Navigation.Controls;
 
 // This is a modified version of the BorderRenderHelper taken from the Avalonia source
 // In addition to supporting BackgroundSizing for FABorder, I've also make some changes:

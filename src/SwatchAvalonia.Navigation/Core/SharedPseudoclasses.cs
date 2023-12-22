@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace FluentAvalonia.Core;
+namespace SwatchAvalonia.Navigation.Core;
 
 // These are pseudoclass names that are used in multiple controls. Share them so we don't have
 // a bunch of duplicate strings everywhere

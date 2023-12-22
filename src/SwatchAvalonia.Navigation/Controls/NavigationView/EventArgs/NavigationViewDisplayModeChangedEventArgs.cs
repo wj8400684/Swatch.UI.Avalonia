@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace FluentAvalonia.UI.Controls;
+namespace SwatchAvalonia.Navigation.Controls;
 
 /// <summary>
 /// Provides data for the NavigationView.DisplayModeChanged event.

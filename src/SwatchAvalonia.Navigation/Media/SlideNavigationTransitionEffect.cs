@@ -1,4 +1,4 @@
-﻿namespace FluentAvalonia.UI.Media.Animation;
+﻿namespace SwatchAvalonia.Navigation.Media.Animation;
 
 /// <summary>
 /// Defines constants that describe the type of animation to play during a slide transition.

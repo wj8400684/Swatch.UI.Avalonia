@@ -2,7 +2,7 @@
 using Avalonia.Media;
 using Avalonia.Metadata;
 
-namespace FluentAvalonia.UI.Controls;
+namespace SwatchAvalonia.Navigation.Controls;
 
 /// <summary>
 /// Represents an icon source that uses an image type as its content.

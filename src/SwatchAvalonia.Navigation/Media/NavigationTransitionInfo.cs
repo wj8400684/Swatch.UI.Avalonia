@@ -2,7 +2,7 @@
 using Avalonia;
 using Avalonia.Animation;
 
-namespace FluentAvalonia.UI.Media.Animation;
+namespace SwatchAvalonia.Navigation.Media.Animation;
 
 //NOTE: These are custom implementations of these classes as the source is still closed...
 

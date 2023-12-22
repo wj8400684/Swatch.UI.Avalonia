@@ -4,7 +4,7 @@ using Avalonia.Media;
 using System.ComponentModel;
 using System.Globalization;
 
-namespace FluentAvalonia.UI.Controls;
+namespace SwatchAvalonia.Navigation.Controls;
 
 /// <summary>
 /// Represents the base class for an icon source

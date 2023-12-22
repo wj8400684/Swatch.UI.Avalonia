@@ -1,6 +1,6 @@
 ﻿using Avalonia;
 
-namespace FluentAvalonia.UI.Controls.Primitives;
+namespace SwatchAvalonia.Navigation.Controls.Primitives;
 
 /// <summary>
 /// Provides settings used in the template of a <see cref="NavigationViewItemPresenter"/>

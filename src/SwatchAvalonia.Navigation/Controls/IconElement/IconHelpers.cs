@@ -1,9 +1,9 @@
 ﻿using Avalonia;
 using Avalonia.Controls.Documents;
 using Avalonia.Data;
-using FluentAvalonia.Core;
+using SwatchAvalonia.Navigation.Core;
 
-namespace FluentAvalonia.UI.Controls;
+namespace SwatchAvalonia.Navigation.Controls;
 
 internal static class IconHelpers
 {
