@@ -3,7 +3,6 @@
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
     xmlns:local="using:SwatchAvalonia.AppWindow.Controls"
     x:CompileBindings="True">
-    
     <!-- button theme base -->
     <ControlTheme TargetType="Button" x:Key="SystemCaptionButton">
         <Setter Property="BorderBrush" Value="{x:Null}" />

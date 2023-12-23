@@ -10,13 +10,13 @@
         Icon="/Assets/avalonia-logo.ico"
         Title="AvaloniaNavigation">
 
-    <Window.Styles>
-        <Style Selector="Window">
-            <Setter Property="ExtendClientAreaToDecorationsHint" Value="True" />
-            <Setter Property="TransparencyLevelHint" Value="AcrylicBlur" />
-            <Setter Property="Background" Value="Transparent" />
-        </Style>
-    </Window.Styles>
+    <!-- <Window.Styles> -->
+    <!--     <Style Selector="Window"> -->
+    <!--         <Setter Property="ExtendClientAreaToDecorationsHint" Value="True" /> -->
+    <!--         <Setter Property="TransparencyLevelHint" Value="AcrylicBlur" /> -->
+    <!--         <Setter Property="Background" Value="Transparent" /> -->
+    <!--     </Style> -->
+    <!-- </Window.Styles> -->
 
     <Design.DataContext>
         <!-- This only sets the DataContext for the previewer in an IDE,

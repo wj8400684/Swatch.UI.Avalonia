@@ -3,7 +3,10 @@ using System.Collections.Generic;
 using System.Diagnostics.CodeAnalysis;
 using System.Globalization;
 using System.Text.Json;
+using System.Text.Json.Serialization;
+using System.Text.Json.Serialization.Metadata;
 using Avalonia.Platform;
+using SwatchAvalonia.Navigation.Media;
 
 namespace SwatchAvalonia.Navigation;
 
@@ -22,7 +25,7 @@ public class FALocalizationHelper
 
         KeepType<LocalizationMap>();
         KeepType<LocalizationEntry>();
-        _mappings = JsonSerializer.Deserialize<LocalizationMap>(al);
+        _mappings = JsonSerializer.Deserialize<LocalizationMap>(al, SourceGenerationContext.Default.LocalizationMap);
         //_mappings = new LocalizationMap();
 
         static void KeepType<
@@ -77,24 +80,4 @@ public class FALocalizationHelper
     // <ResourceName, Entries>
     private readonly LocalizationMap _mappings;
     private static readonly string s_enUS = "en-US";
-
-    /// <summary>
-    /// Dictionary of language entries for a resource name. &lt;language, value&gt; where
-    /// language is the abbreviated name, e.g., en-US
-    /// </summary>
-    public class LocalizationEntry : Dictionary<string, string>
-    {
-        public LocalizationEntry()
-            : base(StringComparer.InvariantCultureIgnoreCase)
-        {
-        }
-    }
-
-    private class LocalizationMap : Dictionary<string, LocalizationEntry>
-    {
-        public LocalizationMap()
-            : base(StringComparer.InvariantCultureIgnoreCase)
-        {
-        }
-    }
 }
