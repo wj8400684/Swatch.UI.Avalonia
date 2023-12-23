@@ -11,7 +11,6 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SwatchAvalonia.Navigation",
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Files", "Solution Files", "{C42B802B-35F8-41A4-B6AE-7283CEFB5D87}"
 	ProjectSection(SolutionItems) = preProject
-		demo\Directory.Build.props = demo\Directory.Build.props
 		src\Package.props = src\Package.props
 	EndProjectSection
 EndProject
