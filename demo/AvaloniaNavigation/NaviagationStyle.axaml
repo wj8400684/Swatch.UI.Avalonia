@@ -97,8 +97,33 @@
         Selector="ui|NavigationViewItem.SampleAppNav uip|NavigationViewItemPresenter:selected /template/ ContentPresenter#ContentPresenter">
         <Setter Property="IsVisible" Value="False" />
     </Style>
+    
     <Style
         Selector="ui|NavigationViewItem.SampleAppNav uip|NavigationViewItemPresenter:selected /template/ ContentPresenter#Icon">
         <Setter Property="Foreground" Value="{DynamicResource AccentFillColorDefaultBrush}" />
     </Style>
+    
+    <!-- ~1~ 到导航菜单鼠标移动 @1@ -->
+    <!-- <Style -->
+    <!--     Selector="ui|NavigationViewItem.SampleAppNav uip|NavigationViewItemPresenter:pointerover /template/ Border#LayoutRoot"> -->
+    <!--     <Setter Property="Background" Value="{DynamicResource NavBackgroundColorBrush}" /> -->
+    <!-- </Style> -->
+    <!-- -->
+    <!-- ~1~ 当导航菜单被选中 @1@ -->
+    <!-- <Style -->
+    <!--     Selector="ui|NavigationViewItem.SampleAppNav uip|NavigationViewItemPresenter:selected /template/ Border#LayoutRoot"> -->
+    <!--     <Setter Property="Background" Value="{DynamicResource NavBackgroundColorBrush}" /> -->
+    <!-- </Style> -->
+    <!-- -->
+    <!-- ~1~ 设置修改导航菜单背景色的动画 @1@ -->
+    <!-- <Style -->
+    <!--     Selector="ui|NavigationViewItem.SampleAppNav uip|NavigationViewItemPresenter:pointerover /template/ Border#LayoutRoot"> -->
+    <!--     <Setter Property="Transitions"> -->
+    <!--         <Transitions> -->
+    <!--             <BrushTransition Property="Background" -->
+    <!--                              Duration="0:0:0:0.5"/> -->
+    <!--         </Transitions> -->
+    <!--     </Setter> -->
+    <!-- </Style> -->
+
 </Styles>

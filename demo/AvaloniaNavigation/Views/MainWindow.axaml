@@ -8,8 +8,7 @@
         x:Class="AvaloniaNavigation.Views.MainWindow"
         x:DataType="vm:MainWindowViewModel"
         Icon="/Assets/avalonia-logo.ico"
-        Title="AvaloniaNavigation"
-        >
+        Title="AvaloniaNavigation">
 
     <Window.Styles>
         <Style Selector="Window">
@@ -18,7 +17,7 @@
             <Setter Property="Background" Value="Transparent" />
         </Style>
     </Window.Styles>
-    
+
     <Design.DataContext>
         <!-- This only sets the DataContext for the previewer in an IDE,
              to set the actual DataContext for runtime, set the DataContext property in code (look at App.axaml.cs) -->
@@ -42,15 +41,16 @@
                            Name="NavView"
                            IsSettingsVisible="False"
                            Classes="SampleAppNav"
-                          Margin="0,40,0,0">
+                           Margin="0,40,0,0">
             <ui:NavigationView.MenuItems>
-                <ui:NavigationViewItem Tag="SamplePage1" IconSource="Play" Classes="SampleAppNav" />
-                <ui:NavigationViewItem Tag="SamplePage2" IconSource="Save" Classes="SampleAppNav" />
-                <ui:NavigationViewItem Tag="SamplePage3" IconSource="Refresh" Classes="SampleAppNav" />
-                <ui:NavigationViewItem Tag="SamplePage4" IconSource="Download" Classes="SampleAppNav" />
+                <ui:NavigationViewItem Tag="{DynamicResource PlayIconFilled}" IconSource="{DynamicResource PlayIcon}" Classes="SampleAppNav" />
+                <ui:NavigationViewItem Tag="{DynamicResource SaveFilledIcon}" IconSource="{DynamicResource SaveIcon}" Classes="SampleAppNav" />
+                <ui:NavigationViewItem Tag="{DynamicResource PlayIconFilled}" IconSource="{DynamicResource RefreshIcon}"
+                                       Classes="SampleAppNav" />
             </ui:NavigationView.MenuItems>
             <ui:NavigationView.FooterMenuItems>
-                <ui:NavigationViewItem Tag="SamplePage4" IconSource="Setting" Classes="SampleAppNav" />
+                <ui:NavigationViewItem Tag="{DynamicResource SettingsFilledIcon}" IconSource="{DynamicResource SettingsIcon}"
+                                       Classes="SampleAppNav" />
             </ui:NavigationView.FooterMenuItems>
         </ui:NavigationView>
     </Grid>

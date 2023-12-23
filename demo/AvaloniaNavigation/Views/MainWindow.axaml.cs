@@ -10,6 +10,21 @@ public partial class MainWindow : Window
     public MainWindow()
     {
         InitializeComponent();
+        NavView.ItemInvoked += OnViewOnItemInvoked;
+        NavView.BackRequested += OnViewOnBackRequested;
+        NavView.SelectionChanged += OnViewOnSelectionChanged;
+    }
+
+    private void OnViewOnBackRequested(object? sender, NavigationViewBackRequestedEventArgs e)
+    {
+    }
+
+    private void OnViewOnSelectionChanged(object? sender, NavigationViewSelectionChangedEventArgs e)
+    {
+    }
+
+    private void OnViewOnItemInvoked(object? sender, NavigationViewItemInvokedEventArgs e)
+    {
     }
 
     private void NavView_OnPointerPressed(object? sender, PointerPressedEventArgs e)
