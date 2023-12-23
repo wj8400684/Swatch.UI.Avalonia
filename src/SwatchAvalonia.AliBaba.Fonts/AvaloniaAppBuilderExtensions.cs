@@ -20,7 +20,6 @@ public static class AvaloniaAppBuilderExtensions
                     FontFamily = new FontFamily(setting.DefaultFontFamily)
                 }
             }
-        }).ConfigureFonts(manager =>
-            manager.AddFontCollection(new EmbeddedFontCollection(setting.Key, setting.Source)));
+        }).ConfigureFonts(manager => manager.AddFontCollection(new AliBabaFontCollection()));
     }
 }
