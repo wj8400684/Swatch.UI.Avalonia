@@ -11,8 +11,6 @@ public class AppWindow : Window
 
     public AppWindow()
     { 
-        PseudoClasses.Add(":windows");
-        return;
         if (RuntimeInformation.IsOSPlatform(OSPlatform.Windows))
             PseudoClasses.Add(":windows");
         else if (RuntimeInformation.IsOSPlatform(OSPlatform.OSX))
