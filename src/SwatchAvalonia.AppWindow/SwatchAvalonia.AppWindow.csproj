@@ -4,7 +4,6 @@
     <PropertyGroup>
         <Title>SwatchAvalonia.AppWindow</Title>
     </PropertyGroup>
-
     <ItemGroup>
         <PackageReference Include="Avalonia" Version="$(AvaloniaVersion)" />
     </ItemGroup>

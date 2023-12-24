@@ -10,7 +10,7 @@ public class AppWindow : Window
     protected override Type StyleKeyOverride { get; } = typeof(AppWindow);
 
     public AppWindow()
-    { 
+    {
         if (RuntimeInformation.IsOSPlatform(OSPlatform.Windows))
             PseudoClasses.Add(":windows");
         else if (RuntimeInformation.IsOSPlatform(OSPlatform.OSX))
