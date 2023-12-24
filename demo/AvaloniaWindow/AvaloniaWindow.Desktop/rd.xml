@@ -9,6 +9,7 @@
     <Application>
         <Assembly Name="Avalonia.Markup.Xaml" Dynamic="Required All"/>
         <Assembly Name="Semi.Avalonia" Dynamic="Required All"/>
+        <Assembly Name="Semi.Avalonia" Dynamic="Required All"/>
         <Assembly Name="AvaloniaWindow" Dynamic="Required All"/>
         <Assembly Name="SwatchAvalonia.AppWindow" Dynamic="Required All"/>
     </Application>
