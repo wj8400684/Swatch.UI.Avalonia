@@ -25,7 +25,7 @@ public class FALocalizationHelper
 
         KeepType<LocalizationMap>();
         KeepType<LocalizationEntry>();
-        _mappings = JsonSerializer.Deserialize<LocalizationMap>(al, SourceGenerationContext.Default.LocalizationMap);
+        _mappings = JsonSerializer.Deserialize(al, SourceGenerationContext.Default.LocalizationMap);
         //_mappings = new LocalizationMap();
 
         static void KeepType<
