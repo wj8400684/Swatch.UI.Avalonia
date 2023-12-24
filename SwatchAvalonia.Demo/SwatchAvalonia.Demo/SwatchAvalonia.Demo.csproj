@@ -18,4 +18,13 @@
     <!--Condition below is needed to remove Avalonia.Diagnostics package from build output in Release configuration.-->
     <PackageReference Condition="'$(Configuration)' == 'Debug'" Include="Avalonia.Diagnostics" Version="$(AvaloniaVersion)" />
   </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\src\SwatchAvalonia.AppWindow\SwatchAvalonia.AppWindow.csproj" />
+    <ProjectReference Include="..\..\src\SwatchAvalonia.Navigation\SwatchAvalonia.Navigation.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <TrimmerRootDescriptor Include="Roots.xml" />
+  </ItemGroup>
 </Project>

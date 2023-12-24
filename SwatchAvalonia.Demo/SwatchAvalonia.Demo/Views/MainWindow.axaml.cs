@@ -1,8 +1,7 @@
-using Avalonia.Controls;
 
 namespace SwatchAvalonia.Demo.Views
 {
-    public partial class MainWindow : Window
+    public partial class MainWindow : AppWindow.Controls.AppWindow
     {
         public MainWindow()
         {

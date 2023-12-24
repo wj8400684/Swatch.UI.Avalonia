@@ -21,4 +21,8 @@
   <ItemGroup>
     <ProjectReference Include="..\SwatchAvalonia.Demo\SwatchAvalonia.Demo.csproj" />
   </ItemGroup>
+
+  <ItemGroup>
+    <RdXmlFile Include="rd.xml" />
+  </ItemGroup>
 </Project>
