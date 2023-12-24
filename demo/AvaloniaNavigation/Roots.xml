@@ -1,4 +1,0 @@
-﻿<linker>
-	<assembly fullname="SwatchAvalonia.AppWindow" preserve="All" />
-	<assembly fullname="SwatchAvalonia.Navigation" preserve="All" />
-</linker>

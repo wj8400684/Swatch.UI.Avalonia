@@ -14,5 +14,8 @@
         <PackageReference Include="Avalonia.Controls.ItemsRepeater" Version="$(AvaloniaVersion)" />
         <PackageReference Include="System.Text.Json" Version="8.0.0" />
     </ItemGroup>
+    <ItemGroup>
+      <Folder Include="Converters\" />
+    </ItemGroup>
 
 </Project>

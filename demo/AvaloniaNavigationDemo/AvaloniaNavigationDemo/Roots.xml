@@ -1,0 +1,3 @@
+﻿<linker>
+	<assembly fullname="AvaloniaNavigationDemo" preserve="All" />
+</linker>
