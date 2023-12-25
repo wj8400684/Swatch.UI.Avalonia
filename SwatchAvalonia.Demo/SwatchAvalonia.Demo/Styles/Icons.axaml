@@ -10,5 +10,7 @@
     
     <ui:SymbolIconSource Symbol="Settings" x:Key="SettingsIcon" />
     <ui:SymbolIconSource Symbol="SettingsFilled" x:Key="SettingsIconFilled" />
+    
+
     <!-- Add Styles Here -->
 </ResourceDictionary>

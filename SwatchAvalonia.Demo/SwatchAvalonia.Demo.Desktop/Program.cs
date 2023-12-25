@@ -21,16 +21,16 @@ namespace SwatchAvalonia.Demo.Desktop
                 .LogToTrace()
                 .UseReactiveUI();
 
-            return app.UsePlatformDetect();
+            //return app.UsePlatformDetect();
 
-//            app.UseSkia();
-//#if Linux
-//            app.UseX11();
-//#elif OSX
-//            app.UseAvaloniaNative();
-//#elif Windows
-//            app.UseWin32();
-//#endif
+            app.UseSkia();
+#if Linux
+            app.UseX11();
+#elif OSX
+            app.UseAvaloniaNative();
+#elif Windows
+            app.UseWin32();
+#endif
             
             return app;
         }
