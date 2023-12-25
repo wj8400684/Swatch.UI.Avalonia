@@ -18,8 +18,6 @@ public class AppWindow : Window
         else if (RuntimeInformation.IsOSPlatform(OSPlatform.Linux))
             PseudoClasses.Add(":linux");
         else
-        {
-            //其他平台自行判断
-        }
+            throw new NotSupportedException();
     }
 }
