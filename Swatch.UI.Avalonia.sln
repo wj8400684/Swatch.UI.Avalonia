@@ -23,9 +23,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SwatchAvalonia.AppWindow", 
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "all", "all", "{F1BBF850-A258-473A-AC62-816141B82D59}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SwatchAvalonia.Demo", "SwatchAvalonia.Demo\SwatchAvalonia.Demo\SwatchAvalonia.Demo.csproj", "{E08BC3ED-CFF4-4C61-878C-B5CDC7791FFB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SwatchAvalonia.Demo", "SwatchAvalonia.Demo\SwatchAvalonia.Demo\SwatchAvalonia.Demo.csproj", "{E08BC3ED-CFF4-4C61-878C-B5CDC7791FFB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SwatchAvalonia.Demo.Desktop", "SwatchAvalonia.Demo\SwatchAvalonia.Demo.Desktop\SwatchAvalonia.Demo.Desktop.csproj", "{E4101BE3-24B2-4B7C-9A66-B45EF1707414}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SwatchAvalonia.Demo.Desktop", "SwatchAvalonia.Demo\SwatchAvalonia.Demo.Desktop\SwatchAvalonia.Demo.Desktop.csproj", "{E4101BE3-24B2-4B7C-9A66-B45EF1707414}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

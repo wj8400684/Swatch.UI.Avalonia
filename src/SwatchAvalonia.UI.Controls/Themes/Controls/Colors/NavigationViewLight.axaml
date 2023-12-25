@@ -1,0 +1,186 @@
+<ResourceDictionary xmlns="https://github.com/avaloniaui"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    x:CompileBindings="True">
+
+    
+    <Color x:Key="SystemAccentColorDark1">#0068d9</Color>
+    
+    <Color x:Key="TextFillColorPrimary">#E4000000</Color>
+    <Color x:Key="TextFillColorSecondary">#9E000000</Color>
+    <Color x:Key="TextFillColorTertiary">#72000000</Color>
+    <Color x:Key="TextFillColorDisabled">#5C000000</Color>
+
+
+
+    <Color x:Key="TextOnAccentFillColorPrimary">#FFFFFF</Color>
+
+    <Color x:Key="ControlFillColorDisabled">#4DF9F9F9</Color>
+    <Color x:Key="ControlFillColorTransparent">#00FFFFFF</Color>
+
+
+
+    <Color x:Key="SubtleFillColorTransparent">#00FFFFFF</Color>
+    <Color x:Key="SubtleFillColorSecondary">#09000000</Color>
+    <Color x:Key="SubtleFillColorTertiary">#06000000</Color>
+    <Color x:Key="SubtleFillColorDisabled">#00FFFFFF</Color>
+
+
+
+
+
+    <Color x:Key="CardStrokeColorDefault">#0F000000</Color>
+    <Color x:Key="DividerStrokeColorDefault">#0F000000</Color>
+    <Color x:Key="LayerFillColorDefault">#80FFFFFF</Color>
+    <Color x:Key="SolidBackgroundFillColorBase">#F3F3F3</Color>
+    <Color x:Key="SolidBackgroundFillColorTransparent">#00F3F3F3</Color>
+    <Color x:Key="SystemFillColorSolidNeutral">#8A8A8A</Color>
+    
+    <SolidColorBrush x:Key="SystemFillColorSolidNeutralBrush" Color="{StaticResource SystemFillColorSolidNeutral}" />
+    <SolidColorBrush x:Key="SystemFillColorAttentionBrush" Color="{DynamicResource SystemAccentColor}" />
+    <SolidColorBrush x:Key="TextFillColorPrimaryBrush" Color="{StaticResource TextFillColorPrimary}" />
+    <SolidColorBrush x:Key="TextFillColorSecondaryBrush" Color="{StaticResource TextFillColorSecondary}" />
+    <SolidColorBrush x:Key="TextFillColorTertiaryBrush" Color="{StaticResource TextFillColorTertiary}" />
+    <SolidColorBrush x:Key="TextFillColorDisabledBrush" Color="{StaticResource TextFillColorDisabled}" />
+
+    <SolidColorBrush x:Key="TextOnAccentFillColorPrimaryBrush"
+                     Color="{StaticResource TextOnAccentFillColorPrimary}" />
+  
+    <SolidColorBrush x:Key="ControlFillColorDisabledBrush" Color="{StaticResource ControlFillColorDisabled}" />
+    <SolidColorBrush x:Key="ControlFillColorTransparentBrush"
+                     Color="{StaticResource ControlFillColorTransparent}" />
+  
+
+    <SolidColorBrush x:Key="SubtleFillColorTransparentBrush"
+                     Color="{StaticResource SubtleFillColorTransparent}" />
+    <SolidColorBrush x:Key="SubtleFillColorSecondaryBrush" Color="{StaticResource SubtleFillColorSecondary}" />
+    <SolidColorBrush x:Key="SubtleFillColorTertiaryBrush" Color="{StaticResource SubtleFillColorTertiary}" />
+    <SolidColorBrush x:Key="SubtleFillColorDisabledBrush" Color="{StaticResource SubtleFillColorDisabled}" />
+
+    <SolidColorBrush x:Key="AccentFillColorDefaultBrush" Color="{DynamicResource SystemAccentColorDark1}" />
+    <SolidColorBrush x:Key="CardStrokeColorDefaultBrush" Color="{StaticResource CardStrokeColorDefault}" />
+    <SolidColorBrush x:Key="DividerStrokeColorDefaultBrush" Color="{StaticResource DividerStrokeColorDefault}" />
+    <SolidColorBrush x:Key="LayerFillColorDefaultBrush" Color="{StaticResource LayerFillColorDefault}" />
+    <SolidColorBrush x:Key="SolidBackgroundFillColorBaseBrush"
+                     Color="{StaticResource SolidBackgroundFillColorBase}" />
+    <!-- InfoBadge -->
+    <StaticResource x:Key="InfoBadgeForeground" ResourceKey="TextOnAccentFillColorPrimaryBrush" />
+    <StaticResource x:Key="InfoBadgeBackground" ResourceKey="AccentFillColorDefaultBrush" />
+
+    <x:Double x:Key="InfoBadgeMinHeight">4</x:Double>
+    <x:Double x:Key="InfoBadgeMinWidth">4</x:Double>
+    <x:Double x:Key="InfoBadgeMaxHeight">16</x:Double>
+    <x:Double x:Key="InfoBadgeValueFontSize">11</x:Double>
+    <x:Double x:Key="InfoBadgeIconHeight">9</x:Double>
+    <x:Double x:Key="InfoBadgeIconWidth">12</x:Double>
+    <Thickness x:Key="InfoBadgePadding">0,0,0,0</Thickness>
+    <Thickness x:Key="IconInfoBadgeFontIconMargin">4,0,4,2</Thickness>
+    <Thickness x:Key="ValueInfoBadgeTextMargin">4,0,4,2</Thickness>
+    <Thickness x:Key="IconInfoBadgeIconMargin">4,4,4,4</Thickness>
+    
+
+    <!-- NAVIGATION VIEW & RELATED -->
+    <StaticResource x:Key="NavigationViewBackButtonBackground" ResourceKey="SubtleFillColorTransparentBrush" />
+
+    <StaticResource x:Key="NavigationViewDefaultPaneBackground" ResourceKey="SolidBackgroundFillColorBaseBrush" />
+    <StaticResource x:Key="NavigationViewExpandedPaneBackground"
+                    ResourceKey="SolidBackgroundFillColorTransparent" />
+    <StaticResource x:Key="NavigationViewTopPaneBackground" ResourceKey="ControlFillColorTransparentBrush" />
+    <StaticResource x:Key="NavigationViewContentBackground" ResourceKey="LayerFillColorDefaultBrush" />
+
+    <StaticResource x:Key="NavigationViewItemBackground" ResourceKey="SubtleFillColorTransparentBrush" />
+    <StaticResource x:Key="NavigationViewItemBackgroundPointerOver" ResourceKey="SubtleFillColorSecondaryBrush" />
+    <StaticResource x:Key="NavigationViewItemBackgroundPressed" ResourceKey="SubtleFillColorTertiaryBrush" />
+    <StaticResource x:Key="NavigationViewItemBackgroundDisabled" ResourceKey="SubtleFillColorTransparentBrush" />
+    <StaticResource x:Key="NavigationViewItemBackgroundChecked" ResourceKey="SubtleFillColorTransparentBrush" />
+    <StaticResource x:Key="NavigationViewItemBackgroundCheckedPointerOver"
+                    ResourceKey="SubtleFillColorSecondaryBrush" />
+    <StaticResource x:Key="NavigationViewItemBackgroundCheckedPressed"
+                    ResourceKey="SubtleFillColorTertiaryBrush" />
+    <StaticResource x:Key="NavigationViewItemBackgroundCheckedDisabled"
+                    ResourceKey="SubtleFillColorTransparentBrush" />
+    <StaticResource x:Key="NavigationViewItemBackgroundSelected" ResourceKey="SubtleFillColorSecondaryBrush" />
+    <StaticResource x:Key="NavigationViewItemBackgroundSelectedPointerOver"
+                    ResourceKey="SubtleFillColorTertiaryBrush" />
+    <StaticResource x:Key="NavigationViewItemBackgroundSelectedPressed"
+                    ResourceKey="SubtleFillColorSecondaryBrush" />
+    <StaticResource x:Key="NavigationViewItemBackgroundSelectedDisabled"
+                    ResourceKey="SubtleFillColorSecondaryBrush" />
+
+    <StaticResource x:Key="NavigationViewItemForeground" ResourceKey="TextFillColorPrimaryBrush" />
+    <StaticResource x:Key="NavigationViewItemForegroundPointerOver" ResourceKey="TextFillColorPrimaryBrush" />
+    <StaticResource x:Key="NavigationViewItemForegroundPressed" ResourceKey="TextFillColorSecondaryBrush" />
+    <StaticResource x:Key="NavigationViewItemForegroundDisabled" ResourceKey="TextFillColorDisabledBrush" />
+    <StaticResource x:Key="NavigationViewItemForegroundChecked" ResourceKey="TextFillColorPrimaryBrush" />
+    <StaticResource x:Key="NavigationViewItemForegroundCheckedPointerOver"
+                    ResourceKey="TextFillColorPrimaryBrush" />
+    <StaticResource x:Key="NavigationViewItemForegroundCheckedPressed"
+                    ResourceKey="TextFillColorSecondaryBrush" />
+    <StaticResource x:Key="NavigationViewItemForegroundCheckedDisabled"
+                    ResourceKey="TextFillColorDisabledBrush" />
+    <StaticResource x:Key="NavigationViewItemForegroundSelected" ResourceKey="TextFillColorPrimaryBrush" />
+    <StaticResource x:Key="NavigationViewItemForegroundSelectedPointerOver"
+                    ResourceKey="TextFillColorPrimaryBrush" />
+    <StaticResource x:Key="NavigationViewItemForegroundSelectedPressed"
+                    ResourceKey="TextFillColorSecondaryBrush" />
+    <StaticResource x:Key="NavigationViewItemForegroundSelectedDisabled"
+                    ResourceKey="TextFillColorDisabledBrush" />
+
+    <StaticResource x:Key="NavigationViewItemBorderBrush" ResourceKey="SubtleFillColorTransparentBrush" />
+    <StaticResource x:Key="NavigationViewItemBorderBrushPointerOver"
+                    ResourceKey="SubtleFillColorSecondaryBrush" />
+    <StaticResource x:Key="NavigationViewItemBorderBrushPressed" ResourceKey="SubtleFillColorTertiaryBrush" />
+    <StaticResource x:Key="NavigationViewItemBorderBrushDisabled" ResourceKey="SubtleFillColorDisabledBrush" />
+    <StaticResource x:Key="NavigationViewItemBorderBrushChecked" ResourceKey="SubtleFillColorTransparentBrush" />
+    <StaticResource x:Key="NavigationViewItemBorderBrushCheckedPointerOver"
+                    ResourceKey="SubtleFillColorSecondaryBrush" />
+    <StaticResource x:Key="NavigationViewItemBorderBrushCheckedPressed"
+                    ResourceKey="SubtleFillColorTertiaryBrush" />
+    <StaticResource x:Key="NavigationViewItemBorderBrushCheckedDisabled"
+                    ResourceKey="SubtleFillColorDisabledBrush" />
+    <StaticResource x:Key="NavigationViewItemBorderBrushSelected" ResourceKey="SubtleFillColorSecondaryBrush" />
+    <StaticResource x:Key="NavigationViewItemBorderBrushSelectedPointerOver"
+                    ResourceKey="SubtleFillColorTertiaryBrush" />
+    <StaticResource x:Key="NavigationViewItemBorderBrushSelectedPressed"
+                    ResourceKey="SubtleFillColorSecondaryBrush" />
+    <StaticResource x:Key="NavigationViewItemBorderBrushSelectedDisabled"
+                    ResourceKey="SubtleFillColorSecondaryBrush" />
+
+    <StaticResource x:Key="NavigationViewItemSeparatorForeground" ResourceKey="DividerStrokeColorDefaultBrush" />
+    <StaticResource x:Key="NavigationViewItemHeaderForeground" ResourceKey="TextFillColorSecondaryBrush" />
+
+    <StaticResource x:Key="NavigationViewSelectionIndicatorForeground"
+                    ResourceKey="AccentFillColorDefaultBrush" />
+
+   
+    <StaticResource x:Key="NavigationViewContentGridBorderBrush" ResourceKey="CardStrokeColorDefaultBrush" />
+    <StaticResource x:Key="TopNavigationViewItemForeground" ResourceKey="TextFillColorPrimaryBrush" />
+    <StaticResource x:Key="TopNavigationViewItemForegroundPointerOver" ResourceKey="TextFillColorPrimaryBrush" />
+    <StaticResource x:Key="TopNavigationViewItemForegroundPressed" ResourceKey="TextFillColorSecondaryBrush" />
+    <StaticResource x:Key="TopNavigationViewItemForegroundDisabled" ResourceKey="TextFillColorDisabledBrush" />
+    <StaticResource x:Key="TopNavigationViewItemForegroundSelected" ResourceKey="TextFillColorPrimaryBrush" />
+    <StaticResource x:Key="TopNavigationViewItemForegroundSelectedPointerOver"
+                    ResourceKey="TextFillColorSecondaryBrush" />
+    <StaticResource x:Key="TopNavigationViewItemForegroundSelectedPressed"
+                    ResourceKey="TextFillColorTertiaryBrush" />
+    <StaticResource x:Key="TopNavigationViewItemBackgroundPointerOver"
+                    ResourceKey="SubtleFillColorTransparentBrush" />
+    <StaticResource x:Key="TopNavigationViewItemBackgroundPressed"
+                    ResourceKey="SubtleFillColorTransparentBrush" />
+    <StaticResource x:Key="TopNavigationViewItemBackgroundSelected"
+                    ResourceKey="SubtleFillColorTransparentBrush" />
+    <StaticResource x:Key="TopNavigationViewItemBackgroundSelectedPointerOver"
+                    ResourceKey="SubtleFillColorTransparentBrush" />
+    <StaticResource x:Key="TopNavigationViewItemBackgroundSelectedPressed"
+                    ResourceKey="SubtleFillColorTransparentBrush" />
+
+    <StaticResource x:Key="TopNavigationViewItemSeparatorForeground"
+                    ResourceKey="DividerStrokeColorDefaultBrush" />
+
+    <StaticResource x:Key="NavigationViewButtonBackgroundPointerOver"
+                    ResourceKey="SubtleFillColorSecondaryBrush" />
+    <StaticResource x:Key="NavigationViewButtonBackgroundPressed" ResourceKey="SubtleFillColorTertiaryBrush" />
+    <StaticResource x:Key="NavigationViewButtonBackgroundDisabled" ResourceKey="ControlFillColorDisabledBrush" />
+    <StaticResource x:Key="NavigationViewButtonForegroundPointerOver" ResourceKey="TextFillColorPrimaryBrush" />
+    <StaticResource x:Key="NavigationViewButtonForegroundPressed" ResourceKey="TextFillColorSecondaryBrush" />
+    <StaticResource x:Key="NavigationViewButtonForegroundDisabled" ResourceKey="TextFillColorDisabledBrush" />
+</ResourceDictionary>
