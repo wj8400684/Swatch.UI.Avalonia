@@ -142,7 +142,7 @@
 
     <!-- app window theme-->
     <ControlTheme TargetType="local:AppWindow" x:Key="{x:Type local:AppWindow}">
-        <Setter Property="Background" Value="{DynamicResource SystemRegionBrush}" />
+        <Setter Property="Background" Value="{DynamicResource WindowBackground}" />
         <Setter Property="TransparencyBackgroundFallback" Value="{DynamicResource SystemControlBackgroundAltHighBrush}" />
         <Setter Property="TopLevel.SystemBarColor" Value="{DynamicResource SystemControlBackgroundAltHighBrush}" />
         <Setter Property="Foreground" Value="{DynamicResource SystemControlForegroundBaseHighBrush}" />
@@ -154,7 +154,7 @@
         <Style Selector="^:mac">
             <Setter Property="ExtendClientAreaToDecorationsHint" Value="True" />
             <Setter Property="TransparencyLevelHint" Value="AcrylicBlur" />
-            <Setter Property="Background" Value="Transparent" />
+     
         </Style>
 
         <!-- 重新定义标题栏 -->

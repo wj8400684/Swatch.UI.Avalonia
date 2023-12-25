@@ -2,6 +2,11 @@
                     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
                     x:CompileBindings="True">
 
+    
+    <Color x:Key="SystemAccentColorDark1">#7F69FF</Color>
+    <Color x:Key="SystemAccentColorDark2">#9B8AFF</Color>
+    <Color x:Key="SystemAccentColorDark3">#B9ADFF</Color>
+    
     <Color x:Key="TextFillColorPrimary">#E4000000</Color>
     <Color x:Key="TextFillColorSecondary">#9E000000</Color>
     <Color x:Key="TextFillColorTertiary">#72000000</Color>
@@ -148,6 +153,7 @@
     <StaticResource x:Key="NavigationViewSelectionIndicatorForeground"
                     ResourceKey="AccentFillColorDefaultBrush" />
 
+   
     <StaticResource x:Key="NavigationViewContentGridBorderBrush" ResourceKey="CardStrokeColorDefaultBrush" />
     <StaticResource x:Key="TopNavigationViewItemForeground" ResourceKey="TextFillColorPrimaryBrush" />
     <StaticResource x:Key="TopNavigationViewItemForegroundPointerOver" ResourceKey="TextFillColorPrimaryBrush" />
