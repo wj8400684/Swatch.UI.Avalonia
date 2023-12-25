@@ -1,9 +1,13 @@
-﻿namespace SwatchAvalonia.Demo.ViewModels
+﻿using SwatchAvalonia.Demo.Core;
+
+namespace SwatchAvalonia.Demo.ViewModels;
+
+public class MainViewModel : ViewModelBase
 {
-    public class MainViewModel : ViewModelBase
+    public MainViewModel()
     {
-#pragma warning disable CA1822 // Mark members as static
-        public string Greeting => "Welcome to Avalonia!";
-#pragma warning restore CA1822 // Mark members as static
+        NavigationFactory = new NavigationFactory(this);
     }
+    
+    public NavigationFactory NavigationFactory { get; }
 }

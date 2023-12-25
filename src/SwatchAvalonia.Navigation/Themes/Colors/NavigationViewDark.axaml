@@ -3,7 +3,7 @@
                     x:CompileBindings="True">
     
    
-    <Color x:Key="SystemAccentColorLight2">#33238C</Color>
+    <Color x:Key="SystemAccentColorLight2">#4ca2ff</Color>
     
     <Color x:Key="TextFillColorPrimary">#FFFFFF</Color>
     <Color x:Key="TextFillColorSecondary">#C5FFFFFF</Color>

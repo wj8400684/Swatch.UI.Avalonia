@@ -154,7 +154,6 @@
         <Style Selector="^:mac">
             <Setter Property="ExtendClientAreaToDecorationsHint" Value="True" />
             <Setter Property="TransparencyLevelHint" Value="AcrylicBlur" />
-     
         </Style>
 
         <!-- 重新定义标题栏 -->
@@ -163,7 +162,6 @@
             <Setter Property="SystemDecorations" Value="None" />
             <Setter Property="ExtendClientAreaToDecorationsHint" Value="True" />
             <Setter Property="TransparencyLevelHint" Value="AcrylicBlur" />
-            <Setter Property="Background" Value="Transparent" />
             <Setter Property="Template" Value="{StaticResource AppWindowOnCustomTemplate}" />
         </Style>
 

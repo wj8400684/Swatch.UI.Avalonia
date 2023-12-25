@@ -18,6 +18,7 @@
                 <ResourceInclude Source="Themes/NavigationView/NavigationViewSharedStyles.axaml"/>
                 <ResourceInclude Source="Themes/NavigationView/NavigationViewStyles.axaml"/>
                 <ResourceInclude Source="Themes/InfoBadgeStyles.axaml"/>
+                <ResourceInclude Source="Themes/FrameStyles.axaml"/>
             </ResourceDictionary.MergedDictionaries>
         </ResourceDictionary>
     </Styles.Resources>
