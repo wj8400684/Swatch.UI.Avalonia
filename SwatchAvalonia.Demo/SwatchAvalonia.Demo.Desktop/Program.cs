@@ -17,11 +17,11 @@ namespace SwatchAvalonia.Demo.Desktop
         public static AppBuilder BuildAvaloniaApp()
         {
             var app = AppBuilder.Configure<App>()
-               // .WithInterFont()
+                .WithInterFont()
                 .LogToTrace()
                 .UseReactiveUI();
 
-            //return app.UsePlatformDetect();
+            return app.UsePlatformDetect();
 
             app.UseSkia();
 #if Linux
