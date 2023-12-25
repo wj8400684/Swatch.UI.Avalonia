@@ -1,8 +1,7 @@
 ﻿using System;
 using Avalonia.Interactivity;
-using SwatchAvalonia.Navigation.Media.Animation;
 
-namespace SwatchAvalonia.Navigation.Controls;
+namespace SwatchAvalonia.UI.Controls;
 
 /// <summary>
 /// Represents the method that will handle the Navigated event.
@@ -24,7 +23,7 @@ public delegate void NavigationStoppedEventHandler(object sender, NavigationEven
 public class NavigationEventArgs : RoutedEventArgs
 {
     internal NavigationEventArgs(object content, NavigationMode mode,
-        NavigationTransitionInfo navInfo, object param,
+        UITransitionInfo navInfo, object param,
         Type srcPgType)
     {
         Content = content;
@@ -59,5 +58,5 @@ public class NavigationEventArgs : RoutedEventArgs
     /// <summary>
     /// Gets a value that indicates the animated transition associated with the navigation.
     /// </summary>
-    public NavigationTransitionInfo NavigationTransitionInfo { get; }
+    public UITransitionInfo NavigationTransitionInfo { get; }
 }

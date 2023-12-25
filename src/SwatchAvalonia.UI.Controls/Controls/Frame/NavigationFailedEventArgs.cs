@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace SwatchAvalonia.Navigation.Controls;
+namespace SwatchAvalonia.UI.Controls;
 
 /// <summary>
 /// Represents a method that will handle the Frame.NavigationFailed event.

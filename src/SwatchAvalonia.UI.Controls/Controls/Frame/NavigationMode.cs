@@ -1,4 +1,4 @@
-﻿namespace SwatchAvalonia.Navigation.Controls;
+﻿namespace SwatchAvalonia.UI.Controls;
 
 /// <summary>
 /// Specifies the navigation stack characteristics of a navigation.

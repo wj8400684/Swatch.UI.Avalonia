@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <Import Project="../Package.props" />
+    <PropertyGroup>
+        <Title>SwatchAvalonia.UI.Control</Title>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <AvaloniaResource Include="Assets\**" />
+    </ItemGroup>
+    <ItemGroup>
+        <PackageReference Include="Avalonia" Version="$(AvaloniaVersion)" />
+    </ItemGroup>
+<!--    <ItemGroup>-->
+<!--      <ProjectReference Include="..\SwatchAvalonia.Navigation\SwatchAvalonia.Navigation.csproj" />-->
+<!--    </ItemGroup>-->
+</Project>

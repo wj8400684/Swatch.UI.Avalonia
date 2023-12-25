@@ -1,7 +1,7 @@
 ﻿using System;
 using Avalonia.Controls;
 
-namespace SwatchAvalonia.Navigation.Controls;
+namespace SwatchAvalonia.UI.Controls;
 
 /// <summary>
 /// Specifies factory methods a <see cref="Frame"/> can use to resolve pages from

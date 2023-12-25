@@ -27,6 +27,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SwatchAvalonia.Demo", "Swat
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SwatchAvalonia.Demo.Desktop", "SwatchAvalonia.Demo\SwatchAvalonia.Demo.Desktop\SwatchAvalonia.Demo.Desktop.csproj", "{E4101BE3-24B2-4B7C-9A66-B45EF1707414}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SwatchAvalonia.UI.Controls", "src\SwatchAvalonia.UI.Controls\SwatchAvalonia.UI.Controls.csproj", "{E298DE11-CAC2-4523-B9AA-577FCF6E3DBA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -57,6 +59,10 @@ Global
 		{E4101BE3-24B2-4B7C-9A66-B45EF1707414}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E4101BE3-24B2-4B7C-9A66-B45EF1707414}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E4101BE3-24B2-4B7C-9A66-B45EF1707414}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E298DE11-CAC2-4523-B9AA-577FCF6E3DBA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E298DE11-CAC2-4523-B9AA-577FCF6E3DBA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E298DE11-CAC2-4523-B9AA-577FCF6E3DBA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E298DE11-CAC2-4523-B9AA-577FCF6E3DBA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -69,5 +75,6 @@ Global
 		{F1BBF850-A258-473A-AC62-816141B82D59} = {3D3B320E-FB01-499A-BC67-C9E138865466}
 		{E08BC3ED-CFF4-4C61-878C-B5CDC7791FFB} = {F1BBF850-A258-473A-AC62-816141B82D59}
 		{E4101BE3-24B2-4B7C-9A66-B45EF1707414} = {F1BBF850-A258-473A-AC62-816141B82D59}
+		{E298DE11-CAC2-4523-B9AA-577FCF6E3DBA} = {2F345D13-D0D4-4CAB-B96E-94A5A0697CAC}
 	EndGlobalSection
 EndGlobal

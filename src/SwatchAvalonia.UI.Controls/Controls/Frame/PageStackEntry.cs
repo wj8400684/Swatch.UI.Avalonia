@@ -1,8 +1,7 @@
 ﻿using System;
 using Avalonia.Controls;
-using SwatchAvalonia.Navigation.Media.Animation;
 
-namespace SwatchAvalonia.Navigation.Controls;
+namespace SwatchAvalonia.UI.Controls;
 
 /// <summary>
 /// Represents an entry in the BackStack or ForwardStack of a Frame.
@@ -15,7 +14,7 @@ public class PageStackEntry
     /// <param name="sourcePageType">The type of page associated with the navigation entry, as a type reference</param>
     /// <param name="parameter">The navigation parameter associated with the navigation entry.</param>
     /// <param name="navigationTransitionInfo">Info about the animated transition associated with the navigation entry.</param>
-    public PageStackEntry(Type sourcePageType, object parameter, NavigationTransitionInfo navigationTransitionInfo)
+    public PageStackEntry(Type sourcePageType, object parameter, UITransitionInfo navigationTransitionInfo)
     {
         NavigationTransitionInfo = navigationTransitionInfo;
         SourcePageType = sourcePageType;
@@ -30,7 +29,7 @@ public class PageStackEntry
     /// <summary>
     /// Gets a value that indicates the animated transition associated with the navigation entry.
     /// </summary>
-    public NavigationTransitionInfo NavigationTransitionInfo { get; internal set; }
+    public UITransitionInfo NavigationTransitionInfo { get; internal set; }
 
     /// <summary>
     /// Gets the navigation parameter associated with this navigation entry.

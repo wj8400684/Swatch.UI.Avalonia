@@ -13,9 +13,8 @@ using System.Collections.Specialized;
 using System.IO;
 using System.Text;
 using System.Threading;
-using SwatchAvalonia.Navigation.Media.Animation;
 
-namespace SwatchAvalonia.Navigation.Controls;
+namespace SwatchAvalonia.UI.Controls;
 
 /// <summary>
 /// Displays <see cref="UserControl"/> instances (Pages in WinUI), supports navigation to new pages, 
@@ -111,7 +110,7 @@ public partial class Frame : ContentControl
     /// and specifies the animated transition to use.
     /// </summary>
     /// <param name="infoOverride">Info about the animated transition to use.</param>
-    public void GoBack(NavigationTransitionInfo infoOverride)
+    public void GoBack(UITransitionInfo infoOverride)
     {
         if (CanGoBack)
         {
@@ -176,7 +175,7 @@ public partial class Frame : ContentControl
     /// <param name="infoOverride">Info about the animated transition.</param>
     /// <returns><c>false</c> if a <see cref="NavigationFailed"/> event handler has set Handled to true; 
     /// otherwise, <c>true</c>.</returns>
-    public bool Navigate(Type sourcePageType, object parameter, NavigationTransitionInfo infoOverride)
+    public bool Navigate(Type sourcePageType, object parameter, UITransitionInfo infoOverride)
     {
         return NavigateCore(new PageStackEntry(sourcePageType, parameter,
             infoOverride), NavigationMode.New);
@@ -673,7 +672,7 @@ public partial class Frame : ContentControl
         if (_presenter != null)
         {
             //Default to entrance transition
-            entry.NavigationTransitionInfo = entry.NavigationTransitionInfo ?? new EntranceNavigationTransitionInfo();
+            entry.NavigationTransitionInfo = entry.NavigationTransitionInfo ?? new EntranceUITransitionInfo();
             _presenter.Opacity = 0;
 
             _cts?.Cancel();

@@ -1,8 +1,7 @@
 ﻿using System;
 using Avalonia.Interactivity;
-using SwatchAvalonia.Navigation.Media.Animation;
 
-namespace SwatchAvalonia.Navigation.Controls;
+namespace SwatchAvalonia.UI.Controls;
 
 /// <summary>
 /// Represents the method to use as the OnNavigatingFrom callback override.
@@ -16,7 +15,7 @@ public delegate void NavigatingCancelEventHandler(object sender, NavigatingCance
 /// </summary>
 public class NavigatingCancelEventArgs : RoutedEventArgs
 {
-    internal NavigatingCancelEventArgs(NavigationMode mode, NavigationTransitionInfo info,
+    internal NavigatingCancelEventArgs(NavigationMode mode, UITransitionInfo info,
         object param, Type srcType)
     {
         NavigationMode = mode;
@@ -43,7 +42,7 @@ public class NavigatingCancelEventArgs : RoutedEventArgs
     /// <summary>
     /// Gets a value that indicates the animated transition associated with the navigation.
     /// </summary>
-    public NavigationTransitionInfo NavigationTransitionInfo { get; }
+    public UITransitionInfo NavigationTransitionInfo { get; }
 
     /// <summary>
     /// Gets the navigation parameter associated with this navigation.
