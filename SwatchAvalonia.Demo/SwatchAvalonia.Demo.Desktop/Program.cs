@@ -15,10 +15,23 @@ namespace SwatchAvalonia.Demo.Desktop
 
         // Avalonia configuration, don't remove; also used by visual designer.
         public static AppBuilder BuildAvaloniaApp()
-            => AppBuilder.Configure<App>()
-                .UsePlatformDetect()
-                .WithInterFont()
+        {
+            var app = AppBuilder.Configure<App>()
+               // .WithInterFont()
                 .LogToTrace()
                 .UseReactiveUI();
+
+            //return app.UsePlatformDetect();
+
+#if Linux
+            app.UseX11();
+#elif OSX
+            app.UseAvaloniaNative();
+#elif Windows
+            app.UseWin32();
+#endif
+            
+            return app;
+        }
     }
 }
