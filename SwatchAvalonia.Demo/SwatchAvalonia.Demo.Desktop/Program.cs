@@ -23,6 +23,7 @@ namespace SwatchAvalonia.Demo.Desktop
 
             //return app.UsePlatformDetect();
 
+            app.UseSkia();
 #if Linux
             app.UseX11();
 #elif OSX
