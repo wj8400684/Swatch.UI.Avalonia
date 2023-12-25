@@ -6,6 +6,7 @@
              xmlns:ui="clr-namespace:SwatchAvalonia.Navigation.Controls;assembly=SwatchAvalonia.Navigation"
              mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
              x:Class="SwatchAvalonia.Demo.Views.MainView"
+             xmlns:views="clr-namespace:SwatchAvalonia.Demo.Views"
              x:DataType="vm:MainViewModel">
   <Design.DataContext>
     <!-- This only sets the DataContext for the previewer in an IDE,
@@ -13,11 +14,14 @@
     <vm:MainViewModel />
   </Design.DataContext>
 
-    <ui:NavigationView   AlwaysShowHeader="False"
-                         PaneDisplayMode="Left"
-                         Name="NavView"
-                         IsSettingsVisible="False"
-                         IsBackEnabled="{Binding #FrameView.CanGoBack}">
-        <ui:Frame Name="FrameView" />
+    <ui:NavigationView  PaneDisplayMode="Left">
+        <ui:NavigationView.MenuItems>
+            <ui:NavigationViewItem Content="Menu Item1" Tag="SamplePage1" IconSource="Play"/>
+            <ui:NavigationViewItem Content="Menu Item2" Tag="SamplePage2" IconSource="Save" />
+            <ui:NavigationViewItem Content="Menu Item3" Tag="SamplePage3" IconSource="Refresh" />
+            <ui:NavigationViewItem Content="Menu Item4" Tag="SamplePage4" IconSource="Download" />
+        </ui:NavigationView.MenuItems>
+        
+        <views:LoginPage/>
     </ui:NavigationView>
 </UserControl>

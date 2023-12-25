@@ -4,9 +4,9 @@ using Avalonia.Markup.Xaml;
 
 namespace SwatchAvalonia.Demo.Views;
 
-public partial class PlayView : UserControl
+public partial class LoginPage : UserControl
 {
-    public PlayView()
+    public LoginPage()
     {
         InitializeComponent();
     }
