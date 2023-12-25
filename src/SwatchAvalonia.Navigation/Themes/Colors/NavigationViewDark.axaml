@@ -2,9 +2,8 @@
                     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
                     x:CompileBindings="True">
     
-    <Color x:Key="SystemAccentColorLight1">#43339C</Color>
+   
     <Color x:Key="SystemAccentColorLight2">#33238C</Color>
-    <Color x:Key="SystemAccentColorLight3">#1D115C</Color>
     
     <Color x:Key="TextFillColorPrimary">#FFFFFF</Color>
     <Color x:Key="TextFillColorSecondary">#C5FFFFFF</Color>

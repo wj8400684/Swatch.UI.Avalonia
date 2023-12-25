@@ -82,6 +82,8 @@
     <x:Double x:Key="IconElementThemeHeight">20</x:Double>
     <x:Double x:Key="IconElementThemeWidth">20</x:Double>
 
+    <x:Double x:Key="ListViewItemDisabledThemeOpacity">0.3</x:Double>
+    
     <!--
         Preserving for reference:
         <x:String x:Key="ControlFastOutSlowInKeySpline">0,0,0,1</x:String>
@@ -89,4 +91,7 @@
         <x:String x:Key="ControlFastAnimationDuration">00:00:00.167</x:String>
         <x:String x:Key="ControlFastAnimationAfterDuration">00:00:00.168</x:String>
         <x:String x:Key="ControlFasterAnimationDuration">00:00:00.083</x:String>-->
+    
+    <SolidColorBrush x:Key="SystemAccentColor">SlateBlue</SolidColorBrush>
+    
 </ResourceDictionary>

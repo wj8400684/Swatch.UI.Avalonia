@@ -4,8 +4,6 @@
 
     
     <Color x:Key="SystemAccentColorDark1">#7F69FF</Color>
-    <Color x:Key="SystemAccentColorDark2">#9B8AFF</Color>
-    <Color x:Key="SystemAccentColorDark3">#B9ADFF</Color>
     
     <Color x:Key="TextFillColorPrimary">#E4000000</Color>
     <Color x:Key="TextFillColorSecondary">#9E000000</Color>
