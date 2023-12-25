@@ -10,7 +10,7 @@
         <Assembly Name="Avalonia.Markup.Xaml" Dynamic="Required All"/>
         <Assembly Name="SwatchAvalonia.Demo" Dynamic="Required All"/>
         <Assembly Name="SwatchAvalonia.AppWindow" Dynamic="Required All"/>
-<!--        <Assembly Name="SwatchAvalonia.Navigation" Dynamic="Required All"/>-->
+        <Assembly Name="SwatchAvalonia.Navigation" Dynamic="Required All"/>
         <Assembly Name="SwatchAvalonia.UI.Controls" Dynamic="Required All"/>
     </Application>
 </Directives>

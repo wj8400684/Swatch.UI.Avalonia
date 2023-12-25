@@ -4,6 +4,7 @@
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              xmlns:vm="clr-namespace:SwatchAvalonia.Demo.ViewModels"
              xmlns:ui="clr-namespace:SwatchAvalonia.Navigation.Controls;assembly=SwatchAvalonia.Navigation"
+             xmlns:controls="clr-namespace:SwatchAvalonia.UI.Controls;assembly=SwatchAvalonia.UI.Controls"
              mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
              x:Class="SwatchAvalonia.Demo.Views.MainView"
              xmlns:views="clr-namespace:SwatchAvalonia.Demo.Views"
@@ -21,7 +22,9 @@
             <ui:NavigationViewItem Content="Menu Item3" Tag="SamplePage3" IconSource="Refresh" />
             <ui:NavigationViewItem Content="Menu Item4" Tag="SamplePage4" IconSource="Download" />
         </ui:NavigationView.MenuItems>
-        
-        <views:LoginPage/>
+        <!-- <controls:Frame> -->
+        <!--     <views:LoginPage/> -->
+        <!-- </controls:Frame> -->
     </ui:NavigationView>
+    
 </UserControl>

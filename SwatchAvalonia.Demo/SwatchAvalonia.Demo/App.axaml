@@ -4,19 +4,11 @@
              RequestedThemeVariant="Default">
     <!-- "Default" ThemeVariant follows system theme variant. "Dark" or "Light" are other available options. -->
 
-    <Application.Resources>
-        <ResourceDictionary>
-            <ResourceDictionary.MergedDictionaries>
-                <ResourceInclude Source="Styles/Icons.axaml" />
-            </ResourceDictionary.MergedDictionaries>
-        </ResourceDictionary>
-    </Application.Resources>
-
     <Application.Styles>
         <FluentTheme />
         <!-- <StyleInclude Source="avares://Semi.Avalonia/Themes/Index.axaml" /> -->
-        <StyleInclude Source="avares://SwatchAvalonia.Demo/Styles/NavigationViewStyle.axaml" />
         <StyleInclude Source="avares://SwatchAvalonia.AppWindow/Index.axaml" />
         <StyleInclude Source="avares://SwatchAvalonia.Navigation/Index.axaml" />
+        <StyleInclude Source="avares://SwatchAvalonia.UI.Controls/Themes/Index.axaml" />
     </Application.Styles>
 </Application>
