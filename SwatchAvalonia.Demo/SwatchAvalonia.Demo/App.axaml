@@ -4,14 +4,17 @@
              RequestedThemeVariant="Default">
     <!-- "Default" ThemeVariant follows system theme variant. "Dark" or "Light" are other available options. -->
 
-    <Application.Resources>
-        <ResourceDictionary.MergedDictionaries>
-            <ResourceInclude Source="Styles/FrameStyles.axaml"/>
-        </ResourceDictionary.MergedDictionaries>
-    </Application.Resources>
-    
+    <!-- <Application.Resources> -->
+    <!--     <ResourceDictionary> -->
+    <!--         <ResourceDictionary.MergedDictionaries> -->
+    <!--             <ResourceInclude Source="Styles/FrameStyles.axaml" /> -->
+    <!--         </ResourceDictionary.MergedDictionaries> -->
+    <!--     </ResourceDictionary> -->
+    <!-- </Application.Resources> -->
+
     <Application.Styles>
         <FluentTheme />
+        <StyleInclude Source="avares://SwatchAvalonia.Demo/Styles/FrameStyles.axaml"/>
         <!-- <StyleInclude Source="avares://Semi.Avalonia/Themes/Index.axaml" /> -->
         <StyleInclude Source="avares://SwatchAvalonia.AppWindow/Index.axaml" />
         <!-- <StyleInclude Source="avares://SwatchAvalonia.Navigation/Index.axaml" /> -->
