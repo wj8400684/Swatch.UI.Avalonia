@@ -24,6 +24,10 @@
     <PropertyGroup Condition="'$(IsLinux)'=='true'">
         <DefineConstants>Linux</DefineConstants>
     </PropertyGroup>
+
+    <PropertyGroup Condition="'$(RunNativeAotCompilation)' == 'true'">
+        <DefineConstants>AOT</DefineConstants>
+    </PropertyGroup>
     
     <PropertyGroup>
         <ApplicationManifest>app.manifest</ApplicationManifest>

@@ -20,18 +20,21 @@ namespace SwatchAvalonia.Demo.Desktop
                 .WithInterFont()
                 .LogToTrace()
                 .UseReactiveUI();
-
-            //return app.UsePlatformDetect();
-
-            app.UseSkia();
-#if Linux
-            app.UseX11();
-#elif OSX
-            app.UseAvaloniaNative();
-#elif Windows
-            app.UseWin32();
-#endif
             
+            return app.UsePlatformDetect();
+
+#if AOT
+            app.UseSkia();
+    #if Linux
+                app.UseX11();
+    #elif OSX
+                app.UseAvaloniaNative();
+    #elif Windows
+                app.UseWin32();
+    #endif
+#else 
+            return app.UsePlatformDetect();
+#endif
             return app;
         }
     }
