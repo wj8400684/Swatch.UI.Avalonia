@@ -1,3 +1,9 @@
 ﻿<linker>
 	<assembly fullname="SwatchAvalonia.Demo" preserve="All" />
+	<assembly fullname="SwatchAvalonia.AppWindow" preserve="All" />
+<!--	<assembly fullname="SwatchAvalonia.Navigation" preserve="All" />-->
+	<assembly fullname="Avalonia.Themes.Fluent" preserve="All"/>
+	<assembly fullname="Avalonia.Fonts.Inter" preserve="All"/>
+	<assembly fullname="Avalonia.ReactiveUI" preserve="All"/>
+	<assembly fullname="Avalonia" preserve="All"/>
 </linker>

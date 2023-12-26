@@ -3,8 +3,6 @@
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              xmlns:vm="clr-namespace:SwatchAvalonia.Demo.ViewModels"
-             xmlns:ui="clr-namespace:SwatchAvalonia.Navigation.Controls;assembly=SwatchAvalonia.Navigation"
-             xmlns:controls="clr-namespace:SwatchAvalonia.UI.Controls;assembly=SwatchAvalonia.UI.Controls"
              mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
              x:Class="SwatchAvalonia.Demo.Views.MainView"
              xmlns:views="clr-namespace:SwatchAvalonia.Demo.Views"
@@ -15,16 +13,18 @@
     <vm:MainViewModel />
   </Design.DataContext>
 
-    <ui:NavigationView  PaneDisplayMode="Left">
-        <ui:NavigationView.MenuItems>
-            <ui:NavigationViewItem Content="Menu Item1" Tag="SamplePage1" IconSource="Play"/>
-            <ui:NavigationViewItem Content="Menu Item2" Tag="SamplePage2" IconSource="Save" />
-            <ui:NavigationViewItem Content="Menu Item3" Tag="SamplePage3" IconSource="Refresh" />
-            <ui:NavigationViewItem Content="Menu Item4" Tag="SamplePage4" IconSource="Download" />
-        </ui:NavigationView.MenuItems>
-        <!-- <controls:Frame> -->
-        <!--     <views:LoginPage/> -->
-        <!-- </controls:Frame> -->
-    </ui:NavigationView>
+    <!-- xmlns:ui="clr-namespace:SwatchAvalonia.Navigation.Controls;assembly=SwatchAvalonia.Navigation" -->
+    <!-- -->
+    <!-- <ui:NavigationView  PaneDisplayMode="Left"> -->
+    <!--     <ui:NavigationView.MenuItems> -->
+    <!--         <ui:NavigationViewItem Content="Menu Item1" Tag="SamplePage1" IconSource="Play"/> -->
+    <!--         <ui:NavigationViewItem Content="Menu Item2" Tag="SamplePage2" IconSource="Save" /> -->
+    <!--         <ui:NavigationViewItem Content="Menu Item3" Tag="SamplePage3" IconSource="Refresh" /> -->
+    <!--         <ui:NavigationViewItem Content="Menu Item4" Tag="SamplePage4" IconSource="Download" /> -->
+    <!--     </ui:NavigationView.MenuItems> -->
+    <!--     ~1~ <controls:Frame> @1@ -->
+    <!--     ~1~     <views:LoginPage/> @1@ -->
+    <!--     ~1~ </controls:Frame> @1@ -->
+    <!-- </ui:NavigationView> -->
     
 </UserControl>

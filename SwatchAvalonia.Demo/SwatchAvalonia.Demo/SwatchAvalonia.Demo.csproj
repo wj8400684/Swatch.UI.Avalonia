@@ -22,16 +22,10 @@
 
   <ItemGroup>
     <ProjectReference Include="..\..\src\SwatchAvalonia.AppWindow\SwatchAvalonia.AppWindow.csproj" />
-    <ProjectReference Include="..\..\src\SwatchAvalonia.Navigation\SwatchAvalonia.Navigation.csproj" />
 <!--    <ProjectReference Include="..\..\src\SwatchAvalonia.Navigation\SwatchAvalonia.Navigation.csproj" />-->
-    <ProjectReference Include="..\..\src\SwatchAvalonia.UI.Controls\SwatchAvalonia.UI.Controls.csproj" />
   </ItemGroup>
 
   <ItemGroup>
     <TrimmerRootDescriptor Include="Roots.xml" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Folder Include="Styles\" />
   </ItemGroup>
 </Project>
