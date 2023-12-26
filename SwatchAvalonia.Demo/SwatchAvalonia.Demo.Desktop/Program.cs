@@ -21,8 +21,8 @@ namespace SwatchAvalonia.Demo.Desktop
                 .LogToTrace()
                 .UseReactiveUI();
 
-            //return app.UsePlatformDetect();
-
+            return app.UsePlatformDetect();
+#if AOT
             app.UseSkia();
 #if Linux
             app.UseX11();
@@ -33,6 +33,9 @@ namespace SwatchAvalonia.Demo.Desktop
 #endif
             
             return app;
+#else
+            return app.UsePlatformDetect();
+#endif
         }
     }
 }

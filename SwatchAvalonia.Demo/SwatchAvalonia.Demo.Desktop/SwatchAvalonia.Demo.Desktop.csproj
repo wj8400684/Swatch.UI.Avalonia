@@ -21,6 +21,10 @@
         <DefineConstants>Windows</DefineConstants>
     </PropertyGroup>
 
+    <PropertyGroup Condition="'$(RunNativeAotCompilation)' == 'true'">
+        <DefineConstants>AOT</DefineConstants>
+    </PropertyGroup>
+    
     <PropertyGroup Condition="'$(IsOSX)'=='true'">
         <DefineConstants>OSX</DefineConstants>
     </PropertyGroup>
