@@ -17,9 +17,9 @@ namespace SwatchAvalonia.Demo.Desktop
         public static AppBuilder BuildAvaloniaApp()
         {
             var app = AppBuilder.Configure<App>()
-                .WithInterFont()
-                .LogToTrace()
-                .UseReactiveUI();
+                                .WithInterFont()
+                                .LogToTrace()
+                                .UseReactiveUI();
 
             return app.UsePlatformDetect();
 #if AOT
