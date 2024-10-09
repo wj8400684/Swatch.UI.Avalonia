@@ -24,7 +24,7 @@
         <Setter Property="Template">
             <ControlTemplate>
                 <Border Background="{TemplateBinding Background}"
-                        CornerRadius="180"
+                        CornerRadius="60"
 						Cursor="Hand">
                     <Viewbox Width="{TemplateBinding FontSize}"
                              Height="{TemplateBinding FontSize}"
@@ -142,16 +142,17 @@
 
     <!-- app window theme-->
     <ControlTheme TargetType="local:AppWindow" x:Key="{x:Type local:AppWindow}">
-        <Setter Property="Background" Value="{DynamicResource WindowBackground}" />
+        <Setter Property="Background" Value="{DynamicResource WindowDefaultBackground}" />
         <Setter Property="TransparencyBackgroundFallback" Value="{DynamicResource SystemControlBackgroundAltHighBrush}" />
         <Setter Property="TopLevel.SystemBarColor" Value="{DynamicResource SystemControlBackgroundAltHighBrush}" />
-        <Setter Property="Foreground" Value="{DynamicResource SystemControlForegroundBaseHighBrush}" />
-        <Setter Property="FontSize" Value="{DynamicResource ControlContentThemeFontSize}" />
-        <Setter Property="FontFamily" Value="{DynamicResource ContentControlThemeFontFamily}" />
+        <Setter Property="Foreground" Value="{DynamicResource WindowDefaultForeground}" />
+        <Setter Property="FontSize" Value="{DynamicResource DefaultFontSize}" />
+        <Setter Property="FontFamily" Value="{DynamicResource DefaultFontFamily}" />
         <Setter Property="Template" Value="{StaticResource AppWindowDefaultTemplate}" />
 
         <!-- 如果是mac模式则隐藏标题栏 -->
         <Style Selector="^:mac">
+            <Setter Property="ExtendClientAreaTitleBarHeightHint" Value="63" />
             <Setter Property="ExtendClientAreaToDecorationsHint" Value="True" />
             <Setter Property="TransparencyLevelHint" Value="AcrylicBlur" />
         </Style>

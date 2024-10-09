@@ -4,5 +4,6 @@
     <SolidColorBrush x:Key="SysButtonBackgroundPressed" Color="#e5e5e5"/>
     <SolidColorBrush x:Key="SysCloseButtonBackgroundPressed" Color="#e66d65"/>
     <SolidColorBrush x:Key="SysButtonBackgroundHover" Color="#eeeeee"/>
-    <SolidColorBrush x:Key="WindowBackground" Color="White"/>
+    <SolidColorBrush x:Key="WindowDefaultBackground" Color="White"/>
+    <SolidColorBrush x:Key="WindowDefaultForeground" Color="Black"/>
 </ResourceDictionary>

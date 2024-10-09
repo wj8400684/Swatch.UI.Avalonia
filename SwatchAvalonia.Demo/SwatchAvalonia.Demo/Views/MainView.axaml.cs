@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using Avalonia;
 using Avalonia.Animation;
 using Avalonia.Controls;
+using Avalonia.Controls.ApplicationLifetimes;
+using Avalonia.Input;
 using Avalonia.Styling;
 using SwatchAvalonia.Demo.Core;
 using SwatchAvalonia.Demo.ViewModels;
@@ -14,15 +16,28 @@ namespace SwatchAvalonia.Demo.Views;
 
 public partial class MainView : UserControl
 {
+    private MainWindow? _mainWindow;
+    
     public MainView()
     {
         InitializeComponent();
     }
-
+        
+    private void InputElement_OnPointerPressed(object? sender, PointerPressedEventArgs e)
+    {
+        _mainWindow?.BeginMoveDrag(e);
+    }
+    
     protected override void OnAttachedToVisualTree(VisualTreeAttachmentEventArgs e)
     {
         base.OnAttachedToVisualTree(e);
 
+        if (Application.Current?.ApplicationLifetime is not IClassicDesktopStyleApplicationLifetime app) return;
+        if (app.MainWindow is not MainWindow w)
+            return;
+
+        _mainWindow = w;
+        
         var vm = new MainViewModel();
         FrameView.NavigationPageFactory = vm.NavigationFactory;
         DataContext = vm;
@@ -201,4 +216,5 @@ public partial class MainView : UserControl
                 : null;
         }
     }
+
 }
